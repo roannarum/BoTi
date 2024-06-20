@@ -18,21 +18,21 @@ nltk.download('stopwords')
 nltk.download('punkt')
 
 # Load necessary resources
-model = load_model('best_lstm_model_fix.h5')
+model = load_model('best_lstm_model.h5')
 
 # Load tokenizer
-with open('tokenizer.json', 'r') as f:
+with open('tokenizer (3).json', 'r') as f:
     data = json.load(f)
     tokenizer = tokenizer_from_json(json.dumps(data))  # Convert dict to JSON string
 
 # Load label encoder
-with open('label_encoder.json', 'r') as f:
+with open('label_encoder1.json', 'r') as f:
     label_encoder_data = json.load(f)
     label_encoder = LabelEncoder()
     label_encoder.classes_ = np.array(label_encoder_data['classes'])
 
 # Load intents
-with open('intents.json', 'r') as f:
+with open('intents1.json', 'r') as f:
     intents = json.load(f)
 
 # Set the max_sequence_length as used during training
