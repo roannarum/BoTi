@@ -1,6 +1,6 @@
-streamlit==1.11.1
-numpy==1.21.6
-tensorflow==2.8.0
+streamlit==1.22.0
+numpy>=1.23.0
+tensorflow==2.10.0
 scikit-learn==1.0.2
 Sastrawi==1.0.1
 nltk==3.7
