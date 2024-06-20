@@ -1,7 +1,7 @@
-streamlit
-numpy
-tensorflow
-scikit-learn
-Sastrawi
-nltk
-streamlit-chat
+streamlit==1.11.1
+numpy==1.21.6
+tensorflow==2.8.0
+scikit-learn==1.0.2
+Sastrawi==1.0.1
+nltk==3.7
+streamlit-chat==0.0.2
