@@ -77,7 +77,7 @@ st.markdown(
     """
     <style>
     .main-container {
-        background-color: breen;
+        background-color: green;
         height: 100vh;
         display: flex;
         flex-direction: column;
@@ -102,7 +102,7 @@ st.markdown(
     """, unsafe_allow_html=True
 )
 
-st.title("BoTi🤖")
+st.title("BoTi")
 
 if 'history' not in st.session_state:
     st.session_state['history'] = []
@@ -115,9 +115,9 @@ def update_chat(user_input):
 # Display chat history
 for i, chat in enumerate(st.session_state['history']):
     if chat['is_user']:
-        message(chat['message'], is_user=True, key=f"{i}", avatar_style="big-smile")
+        message(chat['message'], is_user=True, key=f"user_{i}", avatar_style="big-smile")
     else:
-        message(chat['message'], is_user=False, key=f"{i}", avatar_style="bottts")
+        message(chat['message'], is_user=False, key=f"bot_{i}", avatar_style="bottts")
 
 # Input form at the bottom with a Send button
 with st.form(key='my_form', clear_on_submit=True):
@@ -128,5 +128,11 @@ with st.form(key='my_form', clear_on_submit=True):
         st.markdown("<div style='margin-top: 28px;'></div>", unsafe_allow_html=True)  # Adjust the margin as needed
         submit_button = st.form_submit_button(label='Send')
 
-if submit_button and user_input:
-    update_chat(user_input)
+    if submit_button and user_input:
+        update_chat(user_input)
+        st.experimental_rerun()
+
+# Trigger the first response
+if 'initial_response' not in st.session_state:
+    st.session_state['initial_response'] = True
+    st.experimental_rerun()
