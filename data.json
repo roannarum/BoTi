@@ -1,0 +1,2087 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hai",
+                "Halo",
+                "Hi",
+                "p",
+                "Selamat pagi",
+                "Selamat siang",
+                "Selamat sore",
+                "Selamat malam",
+                "Good morning",
+                "Good afternoon",
+                "Good night",
+                "Permisi",
+                "Assalamualaikum",
+                "hey",
+                "Hai BoTi",
+                "Hallo BoTi"
+            ],
+            "responses": [
+                "Hello",
+                "Hai! Salam kenal yaaa!!",
+                "Tentu saja!, ada yang bisa saya bantu?",
+                "Halo!",
+                "Hello!",
+                "Halo! BoTi disini, senang bertemu dengan anda! Mau tau informasi tentang FTTI, kan?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Dah",
+                "Dadah",
+                "Bye",
+                "Good bye",
+                "Selamat tinggal",
+                "Sampai jumpa",
+                "goodbye",
+                "See you"
+            ],
+            "responses": [
+                "Bye!",
+                "Dadahh!",
+                "Good bye!",
+                "Dahh, semoga harimu menyenangkan yaa!",
+                "Sampai jumpa lagi!",
+                "See u! Senang bisa membantu"
+            ]
+        },
+        {
+            "tag": "terimakasih",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "Terima kasih",
+                "Oke, Terima kasih",
+                "Mantap Terima kasih",
+                "Terima kasih yaaa",
+                "Sangat membantu Terima kasih",
+                "Makasih",
+                "Terimakasih banyak",
+                "terimakasih"
+            ],
+            "responses": [
+                "Semoga sukses selalu ya dan diberikan yang terbaik😆"
+            ]
+        },
+        {
+            "tag": "Surat_Keterangan_Aktif_Kuliah",
+            "patterns": [
+                "Bagaimana pengurusan surat keterangan aktif kuliah?",
+                "Apa persyaratan untuk mengurus surat keterangan aktif kuliah?",
+                "Dimana saya bisa mengurus surat keterangan aktif kuliah?",
+                "gimana ngurus surat aktif kuliah?",
+                "Surat keterangan aktif kuliah minta ke siapa?"
+            ],
+            "responses": [
+                "Kamu dapat mengurus surat keterangan kuliah dengan mengikuti prosedur ini: \n1. Mahasiswa dapat mengunjungi https://bit.ly/Keterangan_AktifKuliah untuk mengajukan permintaan surat (Surat Keterangan Aktif Kuliah), \n2. Mahasiswa kemudian diminta untuk mengisi identitas pribadi, Nama Orangtua, Pekerjaan Orangtua, Alamat Lengkap, serta keperluan surat",
+                "Tentu! kamu dapat mengurus surat keterangan kuliah dengan mengikuti langkah-langkah berikut: \n1. Mahasiswa dapat mengunjungi https://bit.ly/Keterangan_AktifKuliah untuk mengajukan permintaan surat (Surat Keterangan Aktif Kuliah), \n2. Mahasiswa kemudian diminta untuk mengisi identitas pribadi, Nama Orangtua, Pekerjaan Orangtua, Alamat Lengkap, serta keperluan surat",
+                "Kamu dapat mengurus surat keterangan aktif kuliah pada link ini https://bit.ly/Keterangan_AktifKuliah atau dapat menghubungi OPSDIK FTTI +62 856-4309-3008"
+            ]
+        },
+        {
+            "tag": "Surat_Keterangan_lulus",
+            "patterns": [
+                "Bagaimana pengurusan surat keterangan lulus kuliah?",
+                "Apa persyaratan untuk mengurus surat keterangan lulus kuliah?",
+                "Dimana saya bisa mengurus surat keterangan lulus kuliah?",
+                "gimana ngurus surat lulus kuliah?",
+                "Apa langkah-langkah mengurus surat keterangan lulus?",
+                "Siapa yang harus saya hubungi untuk surat keterangan lulus?",
+                "Berapa lama waktu yang dibutuhkan untuk surat keterangan lulus?",
+                "Apakah ada biaya untuk mengurus surat keterangan lulus?"
+            ],
+            "responses": [
+                "Kamu dapat membuat Surat Keterangan Lulus kuliah dengan menghubungi OPSDIK FTTI +62 856-4309-3008"
+            ]
+        },
+        {
+            "tag": "Surat_Keterangan_Cuti",
+            "patterns": [
+                "Bagaimana pengurusan surat keterangan Cuti kuliah?",
+                "Apa persyaratan untuk mengurus surat keterangan Cuti kuliah?",
+                "Dimana saya bisa mengurus surat keterangan Cuti kuliah?",
+                "gimana ngurus surat Cuti kuliah?",
+                "Apa langkah-langkah mengurus surat keterangan cuti?",
+                "Siapa yang harus saya hubungi untuk surat keterangan cuti?",
+                "Berapa lama waktu yang dibutuhkan untuk surat keterangan cuti?",
+                "Apakah ada biaya untuk mengurus surat keterangan cuti?"
+            ],
+            "responses": [
+                "Kamu dapat membuat Surat Keterangan Cuti kuliah dengan menghubungi OPSDIK FTTI +62 856-4309-3008"
+            ]
+        },
+        {
+            "tag": "pengajuan_cuti",
+            "patterns": [
+                "Bagaimana cara mengajukan cuti kuliah?",
+                "Apa prosedur pengajuan cuti kuliah?",
+                "Langkah-langkah untuk mengajukan cuti kuliah",
+                "Bagaimana cara mengajukan cuti kuliah di Unjaya?",
+                "Apa saja persyaratan mengajukan cuti kuliah?",
+                "Di mana saya bisa mengajukan cuti kuliah?",
+                "Adakah formulir untuk pengajuan cuti kuliah?",
+                "Bagaimana proses pengajuan cuti kuliah?",
+                "Bisakah saya mengajukan cuti kuliah secara online?",
+                "Apa yang perlu dilakukan untuk mengajukan cuti kuliah?"
+            ],
+            "responses": [
+                "Pengajuan cuti kuliah dapat dilakukan pada Portal Akademik mahasiswa (https://pordik.unjaya.ac.id/)."
+            ]
+        },
+        {
+            "tag": "isi_form_cuti",
+            "patterns": [
+                "Apa yang harus diisi untuk pengajuan cuti kuliah?",
+                "Informasi apa yang perlu diisi untuk cuti kuliah?",
+                "Apa yang perlu diisi saat mengajukan cuti kuliah?",
+                "Detail yang harus diisi untuk pengajuan cuti kuliah"
+            ],
+            "responses": [
+                "Mahasiswa mengisi semester yang akan dipilih untuk cuti dan mengisi alasan dari pengajuan tersebut."
+            ]
+        },
+        {
+            "tag": "konfirmasi_cuti",
+            "patterns": [
+                "Apa yang terjadi setelah mengisi formulir cuti kuliah?",
+                "Apa langkah-langkah setelah mengajukan cuti kuliah?",
+                "Apa yang harus dilakukan setelah mengajukan cuti kuliah?",
+                "Bagaimana proses setelah mengajukan cuti kuliah?",
+                "Siapa yang akan menghubungi setelah mengisi formulir cuti kuliah?",
+                "Apa tindak lanjut setelah pengajuan cuti kuliah?",
+                "Bagaimana proses konfirmasi setelah pengajuan cuti kuliah?",
+                "Apa yang perlu dilakukan setelah mengisi formulir cuti kuliah?",
+                "Apa prosedur konfirmasi cuti kuliah?",
+                "Setelah mengisi formulir cuti, apa langkah selanjutnya?"
+            ],
+            "responses": [
+                "Setelah mengisi, mahasiswa akan dihubungi oleh DPA atau Admin FTTI."
+            ]
+        },
+        {
+            "tag": "transkrip_nilai",
+            "patterns": [
+                "Dimana saya bisa mengurus transkrip nilai?",
+                "Bagaimana prosedur mendapatkan transkrip nilai?",
+                "Bagaimana meminta transkrip nilai?",
+                "Siapa yang bisa saya hubungi untuk meminta transkrip nilai?",
+                "Transkrip nilai ngurus ke siapa?",
+                "Apakah saya bisa mendapatkan transkrip nilai secara online?",
+                "Dimana letak kantor yang mengurus transkrip nilai?",
+                "Prosedur untuk mengurus transkrip nilai?",
+                "Saya butuh transkrip nilai, kemana saya harus pergi?",
+                "Apa langkah-langkah untuk mendapatkan transkrip nilai?",
+                "Adakah syarat khusus untuk meminta transkrip nilai?",
+                "Bagaimana jika saya kehilangan transkrip nilai?",
+                "Apakah ada biaya untuk mendapatkan transkrip nilai?",
+                "Berapa lama waktu yang dibutuhkan untuk mendapatkan transkrip nilai?",
+                "Kapan saya bisa mengurus transkrip nilai?",
+                "Apakah saya perlu membuat janji untuk mengurus transkrip nilai?",
+                "Bisakah saya mendapatkan salinan transkrip nilai?",
+                "Siapa yang harus saya temui untuk mendapatkan transkrip nilai?",
+                "Bagaimana cara mengajukan permohonan transkrip nilai?"
+            ],
+            "responses": [
+                "Kamu bisa menghubungi Administrasi akademik melalui pesan WhatsApp nomer ini +62 895-2567-6633"
+            ]
+        },
+        {
+            "tag": "pembayaran_SPP",
+            "patterns": [
+                "bagaimana prosedur pembayaran SPP?",
+                "Bagaimana cara membayar SPP?",
+                "Gimana cara bayar SPP?",
+                "Apa langkah-langkah membayar SPP?",
+                "Dimana saya bisa membayar SPP?",
+                "Metode pembayaran SPP yang tersedia?",
+                "Prosedur pembayaran SPP online",
+                "Bagaimana cara mengangsur SPP?",
+                "Apakah saya bisa bayar SPP secara cicilan?",
+                "Bagaimana cara bayar SPP online?",
+                "Langkah-langkah pembayaran SPP apa saja?",
+                "Bagaimana cara melakukan pembayaran SPP?",
+                "Dimana tempat pembayaran SPP?",
+                "Cara bayar SPP lewat virtual account bagaimana?",
+                "Bagaimana cara bayar SPP di UNJAYA?"
+            ],
+            "responses": [
+                "Baik! Berikut prosedur yang bisa kamu ikuti: \n1. Silahkan kunjungi web https://pordik.unjaya.ac.id/ dan melakukan login dengan akun mahasiswa. \n2. Kemudian buka bagian Laporan Keuangan. Pembayaran biaya pendidikan dapat dilakukan melalui Virtual Account. \n3. Mahasiswa diberikan kesempatan mengangsur sebanyak 2x dalam setiap tahap pembayaran. \n4. Apabila telah melakukan pembayaran, sistem akan mengupdate tagihan secara otomatis."
+            ]
+        },
+        {
+            "tag": "konfirmasi_spp",
+            "patterns": [
+                "Konfirmasi SPP",
+                "saya ingin konfirmasi spp hubungi siapa?",
+                "Siapa yang bisa dihubungi tentang pembayaran spp?",
+                "Bagaimana cara konfirmasi pembayaran SPP?",
+                "Saya sudah bayar SPP, langkah selanjutnya?",
+                "Apa saja syarat untuk konfirmasi SPP?",
+                "Dimana saya bisa konfirmasi pembayaran SPP?",
+                "Nomor kontak untuk konfirmasi SPP?",
+                "Bagaimana prosedur konfirmasi SPP?",
+                "Siapa yang bertanggung jawab untuk konfirmasi SPP?"
+            ],
+            "responses": [
+                "Kamu dapat melakukan konfirmasi pembayaran SPP melalui pesan WhatsApp ke nomor ini +62 811-2644-802 dengan menyertakan NPM, nama lengkap, dan bukti pembayaran",
+                "Kamu dapat menghubungi loket bagian keuangan atau melalui pesan WhatsApp ke nomor ini +62 811-2644-802 dengan menyertakan NPM, nama lengkap, dan bukti pembayaran"
+            ]
+        },
+        {
+            "tag": "program_studi",
+            "patterns": [
+                "Apa saja program studi di fakultas ini?",
+                "Prodi di fakultas ini apa saja?",
+                "Program studi di UNJAYA apa saja?",
+                "Jurusan apa saja yang ada di sini?",
+                "Ada berapa program studi di fakultas ini?",
+                "Fakultas ini punya berapa prodi?",
+                "Sebutkan program studi di fakultas ini",
+                "Prodi yang tersedia di fakultas ini apa saja?",
+                "Apa saja jurusan di fakultas ini?",
+                "Program studi apa yang ada di fakultas ini?",
+                "Jurusan yang ditawarkan di fakultas ini apa saja?",
+                "Fakultas ini menawarkan jurusan apa saja?",
+                "Berapa program studi yang ada di sini?",
+                "Fakultas ini memiliki program studi apa saja?",
+                "Apa saja jurusan di UNJAYA?",
+                "Jurusan apa saja yang ada di UNJAYA?",
+                "Program studi apa yang ditawarkan di UNJAYA?"
+            ],
+            "responses": [
+                "Program studi di UNJAYA khususnya Fakultas Teknik dan Teknologi Informasi yaitu Teknik Informatika, Sistem Informasi, Teknologi Informasi, dan Teknik Industri"
+            ]
+        },
+        {
+            "tag": "akreditasi_sistem_informasi",
+            "patterns": [
+                "apa akreditasi sistem informasi?",
+                "akreditasi sistem informasi apa?",
+                "apa akreditasi prodi sistem informasi?",
+                "akreditasi prodi sistem informasi apa?",
+                "bagaimana akreditasi sistem informasi?",
+                "akreditasi jurusan sistem informasi?",
+                "sekarang akreditasi sistem informasi apa?",
+                "sistem informasi akreditasi terbaru apa?",
+                "akreditasi terbaru sistem informasi?",
+                "status akreditasi prodi sistem informasi?"
+            ],
+            "responses": [
+                "Akreditasi Program Studi Sistem Informasi kami saat ini Baik (Baik)!"
+            ]
+        },
+        {
+            "tag": "akreditasi_teknik_informatika",
+            "patterns": [
+                "apa akreditasi teknik informatika?",
+                "akreditasi teknik informatika apa?",
+                "apa akreditasi prodi informatika?",
+                "akreditasi prodi informatika apa?",
+                "bagaimana akreditasi teknik informatika?",
+                "akreditasi jurusan teknik informatika?",
+                "sekarang akreditasi teknik informatika apa?",
+                "teknik informatika akreditasi terbaru apa?",
+                "akreditasi terbaru teknik informatika?",
+                "status akreditasi prodi teknik informatika?"
+            ],
+            "responses": [
+                "Akreditasi Program Studi Teknik Informatika kami saat ini Baik (Baik)!"
+            ]
+        },
+        {
+            "tag": "akreditasi_teknologi_informasi",
+            "patterns": [
+                "apa akreditasi teknologi informasi?",
+                "akreditasi teknologi informasi apa?",
+                "apa akreditasi prodi teknologi informasi?",
+                "akreditasi prodi teknologi informasi apa?",
+                "bagaimana akreditasi teknologi informasi?",
+                "akreditasi jurusan teknologi informasi?",
+                "sekarang akreditasi teknologi informasi apa?",
+                "teknologi informasi akreditasi terbaru apa?",
+                "akreditasi terbaru teknologi informasi?",
+                "status akreditasi prodi teknologi informasi?"
+            ],
+            "responses": [
+                "Akreditasi Program Studi Teknologi Informasi kami saat ini Baik (Baik)!"
+            ]
+        },
+        {
+            "tag": "akreditasi_teknik_industri",
+            "patterns": [
+                "apa akreditasi teknik industri?",
+                "akreditasi teknik industri apa?",
+                "apa akreditasi prodi teknik industri?",
+                "akreditasi prodi teknik industri apa?",
+                "bagaimana akreditasi teknik industri?",
+                "akreditasi jurusan teknik industri?",
+                "sekarang akreditasi teknik industri apa?",
+                "teknik industri akreditasi terbaru apa?",
+                "akreditasi terbaru teknik industri?",
+                "status akreditasi prodi teknik industri?"
+            ],
+            "responses": [
+                "Akreditasi Program Studi Teknik Industri kami saat ini Baik (Baik)!"
+            ]
+        },
+        {
+            "tag": "biaya_spp_teknik_informatika",
+            "patterns": [
+                "Berapa biaya SPP Teknik Informatika?",
+                "Biaya kuliah Teknik Informatika S1 berapa?",
+                "SPP Teknik Informatika?",
+                "Biaya prodi Teknik Informatika",
+                "Biaya pendidikan Teknik Informatika",
+                "Berapa biaya kuliah jurusan Teknik Informatika?",
+                "Teknik Informatika biaya SPP",
+                "Berapa biaya semesteran Teknik Informatika?"
+            ],
+            "responses": [
+                "Biaya SPP untuk Program Studi Teknik Informatika (S-1) adalah Rp 49.730.000. Biaya tersebut untuk Gelombang Khusus dan Gelombang 1. Terdapat kenaikan Sumbangan Pengembangan hanya di Semester 1 dengan rincian: Gelombang 2 sebesar Rp 500.000,- dan Gelombang 3 sebesar Rp 1.000.000,-. Biaya pendidikan semester 1 dapat diangsur 3 kali, dan mulai semester 2 dapat diangsur 2 kali. Biaya tersebut belum termasuk biaya pengembangan karakter Achmad Yani Muda dengan rincian: Achmad Yani Muda 1: Rp 750.000,- (pada Semester 1), Achmad Yani Muda II: Rp 500.000,- (pada Semester 4), dan Achmad Yani Muda III: Rp 250.000,- (pada Semester 6). Untuk Prodi di Fakultas Teknik dan Teknologi Informasi, sudah termasuk biaya Praktik dan Sertifikasi pada Semester 7. Untuk rincian biaya secara lengkap dapat dilihat pada link https://pmb.unjaya.ac.id/biaya/"
+            ]
+        },
+        {
+            "tag": "biaya_spp_sistem_informasi",
+            "patterns": [
+                "Berapa biaya SPP Sistem Informasi?",
+                "Biaya kuliah Sistem Informasi S1 berapa?",
+                "SPP Sistem Informasi?",
+                "Biaya prodi Sistem Informasi",
+                "Biaya pendidikan Sistem Informasi",
+                "Berapa biaya kuliah jurusan Sistem Informasi?",
+                "Sistem Informasi biaya SPP",
+                "Berapa biaya semesteran Sistem Informasi?"
+            ],
+            "responses": [
+                "Biaya SPP untuk Program Studi Sistem Informasi (S-1) adalah Rp 47.730.000. Biaya tersebut untuk Gelombang Khusus dan Gelombang 1. Terdapat kenaikan Sumbangan Pengembangan hanya di Semester 1 dengan rincian: Gelombang 2 sebesar Rp 500.000,- dan Gelombang 3 sebesar Rp 1.000.000,-. Biaya pendidikan semester 1 dapat diangsur 3 kali, dan mulai semester 2 dapat diangsur 2 kali. Biaya tersebut belum termasuk biaya pengembangan karakter Achmad Yani Muda dengan rincian: Achmad Yani Muda 1: Rp 750.000,- (pada Semester 1), Achmad Yani Muda II: Rp 500.000,- (pada Semester 4), dan Achmad Yani Muda III: Rp 250.000,- (pada Semester 6). Untuk Prodi di Fakultas Teknik dan Teknologi Informasi, sudah termasuk biaya Praktik dan Sertifikasi pada Semester 7. Untuk rincian biaya secara lengkap dapat dilihat pada link https://pmb.unjaya.ac.id/biaya/"
+            ]
+        },
+        {
+            "tag": "biaya_spp_teknologi_informasi",
+            "patterns": [
+                "Berapa biaya SPP Teknologi Informasi?",
+                "Biaya kuliah Teknologi Informasi S1 berapa?",
+                "SPP Teknologi Informasi?",
+                "Biaya prodi Teknologi Informasi",
+                "Biaya pendidikan Teknologi Informasi",
+                "Berapa biaya kuliah jurusan Teknologi Informasi?",
+                "Teknologi Informasi biaya SPP",
+                "Berapa biaya semesteran Teknologi Informasi?"
+            ],
+            "responses": [
+                "Biaya SPP untuk Program Studi Teknologi Informasi (S-1) adalah Rp 47.220.000. Biaya tersebut untuk Gelombang Khusus dan Gelombang 1. Terdapat kenaikan Sumbangan Pengembangan hanya di Semester 1 dengan rincian: Gelombang 2 sebesar Rp 500.000,- dan Gelombang 3 sebesar Rp 1.000.000,-. Biaya pendidikan semester 1 dapat diangsur 3 kali, dan mulai semester 2 dapat diangsur 2 kali. Biaya tersebut belum termasuk biaya pengembangan karakter Achmad Yani Muda dengan rincian: Achmad Yani Muda 1: Rp 750.000,- (pada Semester 1), Achmad Yani Muda II: Rp 500.000,- (pada Semester 4), dan Achmad Yani Muda III: Rp 250.000,- (pada Semester 6). Untuk Prodi di Fakultas Teknik dan Teknologi Informasi, sudah termasuk biaya Praktik dan Sertifikasi pada Semester 7. Untuk rincian biaya secara lengkap dapat dilihat pada link https://pmb.unjaya.ac.id/biaya/"
+            ]
+        },
+        {
+            "tag": "biaya_spp_teknik_industri",
+            "patterns": [
+                "Berapa biaya SPP Teknik Industri?",
+                "Biaya kuliah Teknik Industri S1 berapa?",
+                "SPP Teknik Industri?",
+                "Biaya prodi Teknik Industri",
+                "Biaya pendidikan Teknik Industri",
+                "Berapa biaya kuliah jurusan Teknik Industri?",
+                "Teknik Industri biaya SPP",
+                "Berapa biaya semesteran Teknik Industri?"
+            ],
+            "responses": [
+                "Biaya SPP untuk Program Studi Teknik Industri (S-1) adalah Rp 47.730.000. Biaya tersebut untuk Gelombang Khusus dan Gelombang 1. Terdapat kenaikan Sumbangan Pengembangan hanya di Semester 1 dengan rincian: Gelombang 2 sebesar Rp 500.000,- dan Gelombang 3 sebesar Rp 1.000.000,-. Biaya pendidikan semester 1 dapat diangsur 3 kali, dan mulai semester 2 dapat diangsur 2 kali. Biaya tersebut belum termasuk biaya pengembangan karakter Achmad Yani Muda dengan rincian: Achmad Yani Muda 1: Rp 750.000,- (pada Semester 1), Achmad Yani Muda II: Rp 500.000,- (pada Semester 4), dan Achmad Yani Muda III: Rp 250.000,- (pada Semester 6). Untuk Prodi di Fakultas Teknik dan Teknologi Informasi, sudah termasuk biaya Praktik dan Sertifikasi pada Semester 7. Untuk rincian biaya secara lengkap dapat dilihat pada link https://pmb.unjaya.ac.id/biaya/"
+            ]
+        },
+        {
+            "tag": "potongan_biaya_kbad",
+            "patterns": [
+                "Bagaimana cara mendapatkan potongan KBAD?",
+                "Apa saja syarat untuk potongan KBAD?",
+                "Potongan biaya KBAD",
+                "Diskon untuk keluarga TNI AD",
+                "Potongan biaya untuk prajurit TNI AD"
+            ],
+            "responses": [
+                "Potongan KBAD adalah bantuan biaya pendidikan berupa pemberian potongan biaya pendidikan kepada keluarga prajurit/purnawirawan/PNS TNI Angkatan Darat selama kuliah di Unjaya. Ketentuannya adalah: 1) Warga Negara Indonesia, 2) Putra/putri kandung dan atau Suami/istri prajurit/purnawirawan/PNS TNI Angkatan Darat, 3) Memiliki dan tercatat pada Kartu Keluarga TNI Angkatan Darat (KU-1), 4) Mengunggah Scan KU-1 pada saat pengisian formulir pendaftaran, dan menyerahkan foto kopi KU-1 yang dilegalisir/diketahui oleh Komandan Satuan dimana Ayah/Ibu/Suami/Istri bertugas sebanyak 2 lembar pada saat pemberkasan, 5) Untuk Purnawirawan TNI AD/PNS TNI AD selain KU-1 dilengkapi dengan Skep Pensiun, 6) Pangkat tertinggi untuk yang Aktif adalah Kapten, dan Purnawirawan adalah Kolonel. Besaran potongan sebesar 15 % dari total biaya pendidikan di Fakultas Kesehatan, dan 20 % dari total biaya pendidikan di Fakultas Teknik dan Teknologi Informasi serta Fakultas Ekonomi dan Sosial. Potongan berlaku sampai dengan lulus kuliah."
+            ]
+        },
+        {
+            "tag": "potongan_biaya_kbuy",
+            "patterns": [
+                "Bagaimana cara mendapatkan potongan KBUY?",
+                "Apa saja syarat untuk potongan KBUY?",
+                "Potongan biaya KBUY",
+                "Diskon untuk keluarga karyawan Unjaya",
+                "Potongan biaya untuk anak dosen Unjaya"
+            ],
+            "responses": [
+                "Potongan KBUY adalah bantuan biaya pendidikan berupa pemberian potongan biaya pendidikan kepada keluarga Karyawan/Dosen Unjaya selama kuliah di Unjaya. Ketentuannya adalah: 1) Warga Negara Indonesia, 2) Putra/putri kandung dan atau Suami/istri dari Dosen/Tenaga Kependidikan Unjaya, 3) Memiliki dan tercatat pada Kartu Keluarga dari Dosen/Tenaga Kependidikan Unjaya. Besaran potongan yang didapatkan adalah 20 % dari total biaya pendidikan di seluruh Prodi di Unjaya. Potongan berlaku sampai dengan lulus kuliah."
+            ]
+        },
+        {
+            "tag": "potongan_prestasi_akademik",
+            "patterns": [
+                "Bagaimana cara mendapatkan potongan PPA?",
+                "Apa saja syarat untuk potongan PPA?",
+                "Potongan biaya PPA",
+                "Diskon untuk prestasi akademik",
+                "Potongan biaya untuk IPK tertinggi"
+            ],
+            "responses": [
+                "Potongan Prestasi Akademik (PPA) adalah bantuan biaya pendidikan berupa pemberian potongan biaya pendidikan kepada mahasiswa Unjaya yang berprestasi dan berhasil meraih IPK tertinggi per semester per Prodi per angkatan dengan ketentuan sebagai berikut: 1) Berlaku di Fakultas Kesehatan, 2) Ditetapkan sebagai IPK tertinggi oleh Bagian Akademik. Besaran potongan sebesar Rp 700.000,- untuk Peringkat 1 dan sebesar Rp 600.000,- untuk Peringkat 2. Hanya berlaku pada Penerimaan Reguler."
+            ]
+        },
+        {
+            "tag": "beasiswa_umum",
+            "patterns": [
+                "Bagaimana cara mendapatkan beasiswa di Unjaya?",
+                "Apa saja syarat umum untuk mendapatkan beasiswa?",
+                "Informasi tentang beasiswa di Unjaya",
+                "Jenis-jenis beasiswa yang tersedia di Unjaya",
+                "Ada beasiswa apa saja di Unjaya?",
+                "Syarat umum untuk mendapatkan beasiswa di Unjaya",
+                "Bagaimana cara mendaftar beasiswa di Unjaya?",
+                "Bagaimana cara mengajukan beasiswa?",
+                "apa saja beasiswa yang tersedia di Unjaya?",
+                "apa beasiswa yang ditawarkan Unjaya?",
+                "Apakah ada program beasiswa untuk saat ini?"
+            ],
+            "responses": [
+                "Unjaya menawarkan berbagai jenis beasiswa, termasuk Bantuan Kartu Indonesia Pintar (KIP) Kuliah, Beasiswa Pemerintah Daerah, Beasiswa Corporate Social Responsibility (CSR), Potongan Keluarga Besar Angkatan Darat (KBAD), Potongan Keluarga Besar Universitas Jenderal Achmad Yani Yogyakarta (KBUY), dan Potongan Prestasi Akademik (PPA). Syarat umum untuk mendapatkan beasiswa ini meliputi potensi akademik, kondisi ekonomi, dan kriteria khusus lainnya sesuai dengan jenis beasiswa. Untuk informasi lebih lanjut tentang syarat dan cara pendaftaran, silakan kunjungi situs resmi Unjaya atau hubungi bagian beasiswa di Unjaya."
+            ]
+        },
+        {
+            "tag": "beasiswa_detail",
+            "patterns": [
+                "bisa jelaskan beasiswa tersebut?",
+                "jelaskan lebih lanjut tentang beasiswa di Unjaya",
+                "detail tentang beasiswa di Unjaya",
+                "informasi mengenai beasiswa di Unjaya",
+                "detail beasiswa Unjaya",
+                "penjelasan tentang beasiswa Unjaya"
+            ],
+            "responses": [
+                "Berikut adalah detail dari masing-masing beasiswa yang tersedia di Unjaya:\n\n1. **Bantuan Kartu Indonesia Pintar (KIP) Kuliah**: Program beasiswa dari pemerintah yang ditujukan untuk membantu biaya pendidikan mahasiswa yang kurang mampu secara ekonomi namun memiliki potensi akademik. Untuk informasi lebih lanjut tentang syarat dan cara pendaftaran, silakan kunjungi situs resmi KIP Kuliah atau hubungi bagian beasiswa di Unjaya.\n\n2. **Beasiswa Pemerintah Daerah**: Beasiswa yang diberikan oleh pemerintah daerah untuk mahasiswa yang berprestasi atau kurang mampu secara ekonomi. Syarat dan cara pendaftaran beasiswa ini berbeda-beda tergantung kebijakan masing-masing daerah. Untuk informasi lebih lanjut, silakan kunjungi situs resmi pemerintah daerah Anda atau hubungi bagian beasiswa di Unjaya.\n\n3. **Beasiswa Corporate Social Responsibility (CSR)**: Beasiswa yang diberikan oleh berbagai Perusahaan Mitra TNI Angkatan Darat, Yayasan Kartika Eka Paksi, dan Unjaya. Beasiswa ini ditujukan untuk membantu mahasiswa yang kurang mampu secara ekonomi namun memiliki potensi akademik atau prestasi tertentu. Untuk informasi lebih lanjut tentang syarat dan cara pendaftaran, silakan hubungi bagian beasiswa di Unjaya.\n\n4. **Potongan Keluarga Besar Angkatan Darat (KBAD)**: Bantuan biaya pendidikan berupa pemberian potongan biaya pendidikan kepada keluarga prajurit/purnawirawan/PNS TNI Angkatan Darat selama kuliah di Unjaya. Ketentuannya adalah: 1) Warga Negara Indonesia, 2) Putra/putri kandung dan atau Suami/istri prajurit/purnawirawan/PNS TNI Angkatan Darat, 3) Memiliki dan tercatat pada Kartu Keluarga TNI Angkatan Darat (KU-1), 4) Mengunggah Scan KU-1 pada saat pengisian formulir pendaftaran, dan menyerahkan foto kopi KU-1 yang dilegalisir/diketahui oleh Komandan Satuan dimana Ayah/Ibu/Suami/Istri bertugas sebanyak 2 lembar pada saat pemberkasan, 5) Untuk Purnawirawan TNI AD/PNS TNI AD selain KU-1 dilengkapi dengan Skep Pensiun, 6) Pangkat tertinggi untuk yang Aktif adalah Kapten, dan Purnawirawan adalah Kolonel. Besaran potongan sebesar 15 % dari total biaya pendidikan di Fakultas Kesehatan, dan 20 % dari total biaya pendidikan di Fakultas Teknik dan Teknologi Informasi serta Fakultas Ekonomi dan Sosial. Potongan berlaku sampai dengan lulus kuliah.\n\n5. **Potongan Keluarga Besar Universitas Jenderal Achmad Yani Yogyakarta (KBUY)**: Bantuan biaya pendidikan berupa pemberian potongan biaya pendidikan kepada keluarga Karyawan/Dosen Unjaya selama kuliah di Unjaya. Ketentuannya adalah: 1) Warga Negara Indonesia, 2) Putra/putri kandung dan atau Suami/istri dari Dosen/Tenaga Kependidikan Unjaya, 3) Memiliki dan tercatat pada Kartu Keluarga dari Dosen/Tenaga Kependidikan Unjaya. Besaran potongan yang didapatkan adalah 20 % dari total biaya pendidikan di seluruh Prodi di Unjaya. Potongan berlaku sampai dengan lulus kuliah.\n\n6. **Potongan Prestasi Akademik (PPA)**: Bantuan biaya pendidikan berupa pemberian potongan biaya pendidikan kepada mahasiswa Unjaya yang berprestasi dan berhasil meraih IPK tertinggi per semester per Prodi per angkatan dengan ketentuan sebagai berikut: 1) Berlaku di Fakultas Kesehatan, 2) Ditetapkan sebagai IPK tertinggi oleh Bagian Akademik. Besaran potongan sebesar Rp 700.000,- untuk Peringkat 1 dan sebesar Rp 600.000,- untuk Peringkat 2. Hanya berlaku pada Penerimaan Reguler."
+            ]
+        },
+        {
+            "tag": "syarat_beasiswa",
+            "patterns": [
+                "Apa saja syarat untuk mendapatkan beasiswa di Unjaya?",
+                "Syarat-syarat beasiswa di Unjaya?",
+                "Apa persyaratan untuk mendapatkan beasiswa?",
+                "Kriteria untuk beasiswa di Unjaya",
+                "Apa syarat untuk mengajukan beasiswa di Unjaya?",
+                "Syarat beasiswa Unjaya",
+                "Persyaratan beasiswa di Unjaya",
+                "Apa saja kriteria untuk beasiswa Unjaya?"
+            ],
+            "responses": [
+                "Syarat untuk mendapatkan beasiswa di Unjaya bervariasi tergantung jenis beasiswanya. Secara umum, syarat-syarat meliputi potensi akademik, kondisi ekonomi, dan kriteria khusus sesuai jenis beasiswa. Contohnya, untuk KIP Kuliah diperlukan bukti kurang mampu secara ekonomi, untuk Beasiswa Pemerintah Daerah mengikuti syarat yang ditentukan oleh masing-masing daerah, sedangkan untuk Potongan KBAD diperlukan bukti sebagai keluarga besar Angkatan Darat. Untuk informasi lebih lanjut tentang syarat spesifik masing-masing beasiswa, silakan kunjungi situs resmi Unjaya atau hubungi bagian beasiswa."
+            ]
+        },
+        {
+            "tag": "beasiswa_pemerintah_daerah",
+            "patterns": [
+                "Bagaimana cara mendapatkan beasiswa Pemerintah Daerah?",
+                "Apa syarat untuk mendapatkan beasiswa Pemerintah Daerah?",
+                "Informasi beasiswa Pemerintah Daerah",
+                "Beasiswa dari Pemda",
+                "Cara mendaftar beasiswa Pemerintah Daerah",
+                "Persyaratan beasiswa Pemerintah Daerah",
+                "Apa kriteria untuk beasiswa Pemerintah Daerah?",
+                "Syarat beasiswa dari Pemerintah Daerah"
+            ],
+            "responses": [
+                "Beasiswa Pemerintah Daerah adalah beasiswa yang diberikan oleh pemerintah daerah untuk mahasiswa yang berprestasi atau kurang mampu secara ekonomi. Syarat dan cara pendaftaran beasiswa ini berbeda-beda tergantung kebijakan masing-masing daerah. Untuk informasi lebih lanjut, silakan kunjungi situs resmi pemerintah daerah Anda atau hubungi bagian beasiswa di Unjaya."
+            ]
+        },
+        {
+            "tag": "beasiswa_csr",
+            "patterns": [
+                "Bagaimana cara mendapatkan beasiswa CSR?",
+                "Apa syarat untuk mendapatkan beasiswa CSR?",
+                "Informasi beasiswa CSR",
+                "Beasiswa dari perusahaan mitra",
+                "Beasiswa CSR dari TNI Angkatan Darat"
+            ],
+            "responses": [
+                "Beasiswa Corporate Social Responsibility (CSR) adalah beasiswa yang diberikan oleh berbagai Perusahaan Mitra TNI Angkatan Darat, Yayasan Kartika Eka Paksi, dan Unjaya. Beasiswa ini ditujukan untuk membantu mahasiswa yang kurang mampu secara ekonomi namun memiliki potensi akademik atau prestasi tertentu. Untuk informasi lebih lanjut tentang syarat dan cara pendaftaran, silakan hubungi bagian beasiswa di Unjaya."
+            ]
+        },
+        {
+            "tag": "revisi_tugas_akhir",
+            "patterns": [
+                "Berapa lama waktu yang diberikan untuk menyelesaikan revisi tugas akhir?",
+                "Kapan batas waktu revisi tugas akhir?",
+                "Revisi tugas akhir harus selesai dalam waktu berapa lama?",
+                "Waktu penyelesaian revisi tugas akhir",
+                "Batas waktu revisi tugas akhir",
+                "Deadline revisi tugas akhir"
+            ],
+            "responses": [
+                "Anda harus menyelesaikan revisi Tugas Akhir maksimal 1 (satu) pekan setelah Ujian Pendadaran."
+            ]
+        },
+        {
+            "tag": "telat_revisi_tugas_akhir",
+            "patterns": [
+                "Apa yang harus saya lakukan jika saya telat revisi tugas akhir?",
+                "Bagaimana jika saya terlambat merevisi tugas akhir?",
+                "Apa yang terjadi jika revisi tugas akhir terlambat?",
+                "Telat revisi tugas akhir",
+                "Saya terlambat menyelesaikan revisi tugas akhir",
+                "Apa langkah yang harus diambil jika revisi tugas akhir telat?"
+            ],
+            "responses": [
+                "Jika Anda terlambat merevisi tugas akhir, sebaiknya segera hubungi dosen pembimbing tugas akhir Anda untuk mendapatkan arahan lebih lanjut dan mencari solusi terbaik."
+            ]
+        },
+        {
+            "tag": "unggah_tugas_akhir",
+            "patterns": [
+                "Bagaimana cara mengunggah naskah tugas akhir?",
+                "Di mana saya harus mengunggah tugas akhir?",
+                "Link untuk mengunggah tugas akhir yang sudah disahkan?",
+                "Cara upload tugas akhir",
+                "Tempat unggah tugas akhir",
+                "Bagaimana upload tugas akhir yang sudah disahkan?"
+            ],
+            "responses": [
+                "Anda harus mengunggah naskah Tugas Akhir dalam bentuk file PDF yang telah disahkan oleh Ketua Program Studi melalui laman https://s.id/bebaspustakaUnjaya, dengan format mengikuti surat edaran terlampir (SE/01/UNJAYA/I/2023)."
+            ]
+        },
+        {
+            "tag": "pendaftaran_yudisium",
+            "patterns": [
+                "Bagaimana cara mendaftar yudisium?",
+                "Link untuk pendaftaran yudisium?",
+                "Di mana saya bisa mendaftar yudisium?",
+                "Cara mendaftar yudisium",
+                "Tempat pendaftaran yudisium",
+                "Bagaimana mendaftar yudisium?"
+            ],
+            "responses": [
+                "Anda dapat mendaftar yudisium melalui laman https://bit.ly/yudisium-ftti."
+            ]
+        },
+        {
+            "tag": "data_dosen_ftti_unjaya",
+            "patterns": [
+                "Siapa saja dosen di FTTI Unjaya?",
+                "Dosen FTTI Unjaya",
+                "Nama-nama dosen di FTTI Unjaya",
+                "Daftar dosen di FTTI Unjaya",
+                "Dosen FTTI Universitas Jenderal Achmad Yani Yogyakarta",
+                "Siapa saja dosen per prodi di FTTI Unjaya?"
+            ],
+            "responses": [
+                "Berikut adalah daftar dosen per prodi di FTTI Unjaya:\n\n1. Teknik Industri\n   1. Muhammad Rifqi Ma'arif, S.T., M.Eng.\n   2. Mahdiya Nayla, S.Si., M.Si.\n   3. Ibnu Abdul Rosid, S.T., M.Sc.\n   4. Cici Finansia, S.T., M.Sc.\n   5. Maria Gratiana Dian J., S.T., M.Sc.\n   6. Wahyu Widhiarso, S.T., M.T.\n\n2. Sistem Informasi\n   1. Aris Wahyu Murdiyanto, S.Kom., M.Cs.\n   2. Kharisma, S.T., M.Cs.\n   3. Ulfi Saidata Aesyi, S.Kom., M.Cs.\n   4. Arif Himawan, S.Kom., M.M., M.Eng.\n   5. Ahmad Hanafi, S.T., M.Eng.\n\n3. Informatika\n   1. Ari Cahyono, S.Si., M.T.\n   2. Landung Sudarmana, S.T., M.Kom.\n   3. Benedictus Herry Suharto, S.T., M.T.\n   4. Agung Priyanto, S.T., M.Eng.\n   5. Muhammad Aditya Arief Nugraha, S.T., M.B.A.\n   6. Muhammad Sigit Lestanto, S.T., M.B.A.\n   7. Andika Bayu Saputra, S.Kom., M.Kom.\n   8. Muhammad Habibi, S.Kom., M.Cs.\n   9. Kartikadyota Kusumaningtyas, S.Pd., M.Cs.\n   10. Puji Winar Cahyo, S.Kom., M.Cs.\n   11. Eko Dwi Nugroho, S.Kom., M.Cs.\n   12. Adri Priadana, S.Kom., M.Cs.\n\n4. Teknologi Informasi\n   1. Chanief Budi Setiawan, S.T., M.Eng.\n   2. Rama Sahtyawan, S.T., M.Cs.\n   3. Adkhan Sholeh, S.Si., M.Cs.\n   4. Dedy Hariyadi, S.T., M.Kom.\n   5. Arief Ikhwan Wicaksono, S.Kom., M.Cs.\n   6. Burhan Alfironi Muktamar, S.Kom., M.Eng."
+            ]
+        },
+        {
+            "tag": "dosen_sistem_informasi",
+            "patterns": [
+                "Siapa saja dosen di prodi Sistem Informasi?",
+                "Dosen Sistem Informasi Unjaya",
+                "Nama-nama dosen di Sistem Informasi Unjaya",
+                "Daftar dosen di Sistem Informasi Unjaya",
+                "Dosen Sistem Informasi Universitas Jenderal Achmad Yani Yogyakarta"
+            ],
+            "responses": [
+                "Berikut adalah daftar dosen di prodi Sistem Informasi Unjaya:\n\n1. Aris Wahyu Murdiyanto, S.Kom., M.Cs.\n2. Kharisma, S.T., M.Cs.\n3. Ulfi Saidata Aesyi, S.Kom., M.Cs.\n4. Arif Himawan, S.Kom., M.M., M.Eng.\n5. Ahmad Hanafi, S.T., M.Eng."
+            ]
+        },
+        {
+            "tag": "dosen_informatika",
+            "patterns": [
+                "Siapa saja dosen di prodi Informatika?",
+                "Dosen Informatika Unjaya",
+                "Nama-nama dosen di Informatika Unjaya",
+                "Daftar dosen di Informatika Unjaya",
+                "Dosen Informatika Universitas Jenderal Achmad Yani Yogyakarta"
+            ],
+            "responses": [
+                "Berikut adalah daftar dosen di prodi Informatika Unjaya:\n\n1. Ari Cahyono, S.Si., M.T.\n2. Landung Sudarmana, S.T., M.Kom.\n3. Benedictus Herry Suharto, S.T., M.T.\n4. Agung Priyanto, S.T., M.Eng.\n5. Muhammad Aditya Arief Nugraha, S.T., M.B.A.\n6. Muhammad Sigit Lestanto, S.T., M.B.A.\n7. Andika Bayu Saputra, S.Kom., M.Kom.\n8. Muhammad Habibi, S.Kom., M.Cs.\n9. Kartikadyota Kusumaningtyas, S.Pd., M.Cs.\n10. Puji Winar Cahyo, S.Kom., M.Cs.\n11. Eko Dwi Nugroho, S.Kom., M.Cs.\n12. Adri Priadana, S.Kom., M.Cs."
+            ]
+        },
+        {
+            "tag": "dosen_teknik_industri",
+            "patterns": [
+                "Siapa saja dosen di prodi Teknik Industri?",
+                "Dosen Teknik Industri Unjaya",
+                "Nama-nama dosen di Teknik Industri Unjaya",
+                "Daftar dosen di Teknik Industri Unjaya",
+                "Dosen Teknik Industri Universitas Jenderal Achmad Yani Yogyakarta"
+            ],
+            "responses": [
+                "Berikut adalah daftar dosen di prodi Teknik Industri Unjaya:\n\n1. Muhammad Rifqi Ma'arif, S.T., M.Eng.\n2. Mahdiya Nayla, S.Si., M.Si.\n3. Ibnu Abdul Rosid, S.T., M.Sc.\n4. Cici Finansia, S.T., M.Sc.\n5. Maria Gratiana Dian J., S.T., M.Sc.\n6. Wahyu Widhiarso, S.T., M.T."
+            ]
+        },
+        {
+            "tag": "dosen_teknologi_informasi",
+            "patterns": [
+                "Siapa saja dosen di prodi Teknologi Informasi?",
+                "Dosen Teknologi Informasi Unjaya",
+                "Nama-nama dosen di Teknologi Informasi Unjaya",
+                "Daftar dosen di Teknologi Informasi Unjaya",
+                "Dosen Teknologi Informasi Universitas Jenderal Achmad Yani Yogyakarta"
+            ],
+            "responses": [
+                "Berikut adalah daftar dosen di prodi Teknologi Informasi Unjaya:\n\n1. Chanief Budi Setiawan, S.T., M.Eng.\n2. Rama Sahtyawan, S.T., M.Cs.\n3. Adkhan Sholeh, S.Si., M.Cs.\n4. Dedy Hariyadi, S.T., M.Kom.\n5. Arief Ikhwan Wicaksono, S.Kom., M.Cs.\n6. Burhan Alfironi Muktamar, S.Kom., M.Eng."
+            ]
+        },
+        {
+            "tag": "syarat_pendaftaran_yudisium",
+            "patterns": [
+                "Apa saja syarat pendaftaran yudisium?",
+                "Dokumen apa yang diperlukan untuk pendaftaran yudisium?",
+                "Syarat untuk mendaftar yudisium apa saja?",
+                "Dokumen yang dibutuhkan untuk yudisium",
+                "Persyaratan pendaftaran yudisium",
+                "Apa saja yang harus dipersiapkan untuk mendaftar yudisium?",
+                "Apa saja dokumen yang dibutuhkan untuk yudisium?",
+                "Apa syarat untuk mendaftar yudisium?",
+                "Dokumen yang perlu disiapkan untuk yudisium"
+            ],
+            "responses": [
+                "Syarat pendaftaran yudisium meliputi:\n1. Scan KTP Mahasiswa\n2. Scan Kartu Keluarga (C1)\n3. Scan Akte Kelahiran\n4. Scan Ijazah SLTA / sederajat\n5. Naskah Tugas Akhir yang sudah disyahkan oleh Prodi\n6. Surat Keterangan Bebas Pustaka",
+                "Untuk pendaftaran yudisium, diperlukan dokumen-dokumen berikut:\n1. Scan KTP Mahasiswa\n2. Scan Kartu Keluarga (C1)\n3. Scan Akte Kelahiran\n4. Scan Ijazah SLTA / sederajat\n5. Naskah Tugas Akhir yang sudah disyahkan oleh Prodi\n6. Surat Keterangan Bebas Pustaka",
+                "Dokumen yang dibutuhkan untuk yudisium adalah:\n1. Scan KTP Mahasiswa\n2. Scan Kartu Keluarga (C1)\n3. Scan Akte Kelahiran\n4. Scan Ijazah SLTA / sederajat\n5. Naskah Tugas Akhir yang sudah disyahkan oleh Prodi\n6. Surat Keterangan Bebas Pustaka",
+                "Persyaratan pendaftaran yudisium meliputi:\n1. Scan KTP Mahasiswa\n2. Scan Kartu Keluarga (C1)\n3. Scan Akte Kelahiran\n4. Scan Ijazah SLTA / sederajat\n5. Naskah Tugas Akhir yang sudah disyahkan oleh Prodi\n6. Surat Keterangan Bebas Pustaka",
+                "Untuk mendaftar yudisium, Anda perlu menyiapkan dokumen berikut:\n1. Scan KTP Mahasiswa\n2. Scan Kartu Keluarga (C1)\n3. Scan Akte Kelahiran\n4. Scan Ijazah SLTA / sederajat\n5. Naskah Tugas Akhir yang sudah disyahkan oleh Prodi\n6. Surat Keterangan Bebas Pustaka"
+            ]
+        },
+        {
+            "tag": "konsekuensi_terlambat_daftar",
+            "patterns": [
+                "Apa yang terjadi jika saya terlambat mendaftar yudisium?",
+                "Konsekuensi jika telat daftar yudisium?",
+                "Apa yang harus saya lakukan jika terlambat daftar yudisium?",
+                "Dampak dari keterlambatan pendaftaran yudisium",
+                "Apa akibatnya jika saya terlambat mendaftar yudisium?",
+                "Sanksi untuk yang terlambat mendaftar yudisium",
+                "Apa konsekuensi jika saya telat daftar yudisium?",
+                "Apa yang akan terjadi jika terlambat daftar yudisium?",
+                "Apa dampaknya jika telat mendaftar yudisium?"
+            ],
+            "responses": [
+                "Apabila Anda terlambat mendaftar yudisium, maka Anda diwajibkan untuk registrasi dan mengisi KRS dengan mata kuliah Tugas Akhir pada Semester Gasal Tahun Akademik 2023/2024.",
+                "Jika Anda terlambat mendaftar yudisium, Anda harus registrasi dan mengisi KRS dengan mata kuliah Tugas Akhir pada Semester Gasal Tahun Akademik 2023/2024.",
+                "Terlambat mendaftar yudisium berarti Anda harus registrasi dan mengisi KRS dengan mata kuliah Tugas Akhir pada Semester Gasal Tahun Akademik 2023/2024.",
+                "Konsekuensi dari keterlambatan pendaftaran yudisium adalah Anda harus registrasi dan mengisi KRS dengan mata kuliah Tugas Akhir pada Semester Gasal Tahun Akademik 2023/2024.",
+                "Jika terlambat mendaftar yudisium, maka Anda diwajibkan untuk registrasi dan mengisi KRS dengan mata kuliah Tugas Akhir pada Semester Gasal Tahun Akademik 2023/2024."
+            ]
+        },
+        {
+            "tag": "melengkapi_data_skpi",
+            "patterns": [
+                "Bagaimana cara melengkapi data SKPI?",
+                "Link untuk melengkapi data SKPI?",
+                "Di mana saya bisa melengkapi data SKPI?",
+                "Prosedur melengkapkan data SKPI",
+                "Langkah-langkah melengkapi data SKPI",
+                "Cara update data SKPI",
+                "Bagaimana cara memperbarui data SKPI?",
+                "Dimana melengkapi data SKPI?",
+                "Panduan melengkapi data SKPI"
+            ],
+            "responses": [
+                "Anda dapat melengkapi data SKPI melalui laman https://sikadik.ftti.unjaya.ac.id.",
+                "Untuk melengkapi data SKPI, kunjungi laman: https://sikadik.ftti.unjaya.ac.id.",
+                "Data SKPI dapat dilengkapi melalui situs: https://sikadik.ftti.unjaya.ac.id.",
+                "Prosedur melengkapi data SKPI dapat dilakukan di laman: https://sikadik.ftti.unjaya.ac.id.",
+                "Langkah-langkah melengkapi data SKPI bisa Anda ikuti di: https://sikadik.ftti.unjaya.ac.id."
+            ]
+        },
+        {
+            "tag": "biaya_wisuda",
+            "patterns": [
+                "Berapa biaya wisuda?",
+                "Biaya wisuda berapa ya?",
+                "Dimana saya bisa melihat biaya wisuda?",
+                "Tarif wisuda",
+                "Harga wisuda",
+                "Berapa biaya yang harus saya bayar untuk wisuda?",
+                "Biaya yang diperlukan untuk wisuda",
+                "Informasi tentang biaya wisuda",
+                "Berapa besar biaya wisuda?"
+            ],
+            "responses": [
+                "Anda harus membayar biaya wisuda sesuai ketentuan dari panitia wisuda.",
+                "Biaya wisuda ditentukan oleh panitia wisuda.",
+                "Untuk biaya wisuda, Anda perlu mengikuti ketentuan yang diberikan oleh panitia wisuda.",
+                "Panitia wisuda yang menentukan biaya wisuda yang harus dibayar.",
+                "Biaya wisuda harus dibayarkan sesuai dengan ketentuan dari panitia wisuda."
+            ]
+        },
+        {
+            "tag": "rangkaian_acara_wisuda",
+            "patterns": [
+                "Apa saja rangkaian acara wisuda?",
+                "Kapan acara wisuda?",
+                "Wisuda tanggal berapa?",
+                "Jadwal acara wisuda",
+                "Kegiatan apa saja yang ada dalam acara wisuda?",
+                "Rundown acara wisuda"
+            ],
+            "responses": [
+                "Anda diwajibkan untuk mengikuti rangkaian acara wisuda yang akan diinformasikan lebih lanjut oleh panitia wisuda."
+            ]
+        },
+        {
+            "tag": "pengambilan_ijazah",
+            "patterns": [
+                "Kapan bisa mengambil ijazah?",
+                "Pengambilan ijazah kapan?",
+                "Berapa lama waktu pengambilan ijazah?",
+                "Prosedur pengambilan ijazah",
+                "Langkah-langkah mengambil ijazah",
+                "Bagaimana cara mendapatkan ijazah?"
+            ],
+            "responses": [
+                "Anda dapat mengambil ijazah dan transkrip nilai paling lambat 2 (dua) pekan setelah wisuda."
+            ]
+        },
+        {
+            "tag": "definisi_bebas_pustaka",
+            "patterns": [
+                "Apa itu bebas pustaka?",
+                "Apa yang dimaksud dengan layanan bebas pustaka?",
+                "Definisi bebas pustaka?",
+                "Bagaimana cara mendapatkan surat bebas pustaka?",
+                "Apa fungsi dari bebas pustaka?",
+                "Kenapa saya perlu bebas pustaka?",
+                "Apakah bebas pustaka itu wajib?",
+                "Bebas pustaka itu apa sih?",
+                "Bagaimana prosedur bebas pustaka?",
+                "Dokumen apa saja yang diperlukan untuk bebas pustaka?",
+                "Apa syarat-syarat bebas pustaka?",
+                "Bisakah menjelaskan tentang bebas pustaka?"
+            ],
+            "responses": [
+                "Bebas pustaka adalah salah satu layanan perpustakaan dalam bentuk surat keterangan yang menunjukkan bahwa anggota perpustakaan tersebut tidak memiliki tanggungan di perpustakaan mulai dari pinjaman koleksi, loker, denda, cek plagiarisme, pengumpulan tugas akhir, dll."
+            ]
+        },
+        {
+            "tag": "anggota_perpustakaan",
+            "patterns": [
+                "Siapa saja yang menjadi anggota perpustakaan?",
+                "Apakah saya otomatis menjadi anggota perpustakaan?",
+                "Siapa anggota perpustakaan di UNJAYA?",
+                "Bagaimana cara menjadi anggota perpustakaan?",
+                "Syarat menjadi anggota perpustakaan",
+                "Apakah mahasiswa baru menjadi anggota perpustakaan?"
+            ],
+            "responses": [
+                "Anggota perpustakaan adalah seluruh mahasiswa, dosen, dan tenaga kependidikan Universitas Jenderal Achmad Yani Yogyakarta yang secara otomatis telah menjadi anggota perpustakaan."
+            ]
+        },
+        {
+            "tag": "layanan_bebas_pustaka_yudisium",
+            "patterns": [
+                "Bagaimana cara mendapatkan layanan bebas pustaka untuk yudisium?",
+                "Proses bebas pustaka untuk yudisium bagaimana?",
+                "Apa saja tahapan layanan bebas pustaka untuk yudisium?",
+                "Layanan bebas pustaka untuk yudisium",
+                "Syarat untuk mendapatkan layanan bebas pustaka yudisium",
+                "Bagaimana cara mengajukan layanan bebas pustaka untuk yudisium?"
+            ],
+            "responses": [
+                "Tahapan layanan bebas pustaka untuk yudisium meliputi cek plagiarisme, mengumpulkan karya ilmiah tugas akhir, sumbangan alumni, dan bebas pinjam pustaka (tidak memiliki tanggungan di perpustakaan)."
+            ]
+        },
+        {
+            "tag": "layanan_bebas_pustaka_cuti",
+            "patterns": [
+                "Bagaimana cara mendapatkan layanan bebas pustaka untuk cuti akademik?",
+                "Proses bebas pustaka untuk cuti akademik bagaimana?",
+                "Apa saja tahapan layanan bebas pustaka untuk cuti akademik?",
+                "Layanan bebas pustaka untuk cuti akademik",
+                "Syarat untuk mendapatkan layanan bebas pustaka cuti akademik",
+                "Bagaimana cara mengajukan layanan bebas pustaka untuk cuti akademik?"
+            ],
+            "responses": [
+                "Tahapan layanan bebas pustaka untuk cuti akademik meliputi bebas pinjam pustaka."
+            ]
+        },
+        {
+            "tag": "layanan_bebas_pustaka_keluar",
+            "patterns": [
+                "Bagaimana cara mendapatkan layanan bebas pustaka untuk keluar?",
+                "Proses bebas pustaka untuk keluar bagaimana?",
+                "Apa saja tahapan layanan bebas pustaka untuk keluar?",
+                "Layanan bebas pustaka untuk keluar",
+                "Syarat untuk mendapatkan layanan bebas pustaka keluar",
+                "Bagaimana cara mengajukan layanan bebas pustaka untuk keluar?"
+            ],
+            "responses": [
+                "Tahapan layanan bebas pustaka untuk keluar meliputi bebas pinjam pustaka."
+            ]
+        },
+        {
+            "tag": "cek_plagiarisme",
+            "patterns": [
+                "Bagaimana cara cek plagiarisme?",
+                "Di mana saya bisa cek plagiarisme?",
+                "Apa yang harus saya lakukan untuk cek plagiarisme?",
+                "Prosedur cek plagiarisme",
+                "Langkah-langkah cek plagiarisme",
+                "Cara mengecek plagiarisme"
+            ],
+            "responses": [
+                "Anda dapat melakukan cek plagiarisme sesuai dengan ketentuan yang telah ditetapkan oleh universitas melalui layanan perpustakaan."
+            ]
+        },
+        {
+            "tag": "pengumpulan_karya_ilmiah",
+            "patterns": [
+                "Bagaimana cara mengumpulkan karya ilmiah tugas akhir?",
+                "Di mana saya harus mengumpulkan karya ilmiah?",
+                "Prosedur pengumpulan tugas akhir bagaimana?",
+                "Langkah-langkah mengumpulkan karya ilmiah",
+                "Cara mengajukan pengumpulan tugas akhir"
+            ],
+            "responses": [
+                "Anda harus mengumpulkan karya ilmiah tugas akhir melalui layanan perpustakaan sesuai dengan prosedur yang telah ditetapkan."
+            ]
+        },
+        {
+            "tag": "bebas_pinjam_pustaka",
+            "patterns": [
+                "Apa itu bebas pinjam pustaka?",
+                "Bagaimana cara mendapatkan bebas pinjam pustaka?",
+                "Apakah saya harus bebas pinjam pustaka?",
+                "Syarat untuk mendapatkan bebas pinjam pustaka",
+                "Prosedur bebas pinjam pustaka",
+                "Cara mendapatkan status bebas pinjam pustaka"
+            ],
+            "responses": [
+                "Bebas pinjam pustaka adalah kondisi di mana Anda tidak memiliki tanggungan di perpustakaan, seperti pinjaman koleksi, loker, atau denda. Hal ini diperlukan untuk layanan bebas pustaka."
+            ]
+        },
+        {
+            "tag": "jadwal_kuliah",
+            "patterns": [
+                "Bagaimana cara melihat jadwal kuliah?",
+                "Dimana saya bisa menemukan jadwal kuliah?",
+                "Bagaimana cara mengecek jadwal kuliah di Unjaya?",
+                "Saya ingin melihat jadwal kuliah, di mana bisa ditemukan?",
+                "Tolong beritahu cara akses jadwal kuliah.",
+                "Jadwal Kuliah FTTI yang baru",
+                "Berikan Jadwal Kuliah FTTI",
+                "Apa saja jadwal kuliah hari ini?",
+                "Bagaimana jadwal kuliah semester ini?",
+                "Dimana lihat jadwal kuliah semester ini"
+            ],
+            "responses": [
+                "Anda dapat melihat jadwal kuliah dengan mengunjungi situs web ini: https://ftti.unjaya.ac.id/tag/jadwal-kuliah/"
+            ]
+        },
+        {
+            "tag": "fasilitas_fakultas",
+            "patterns": [
+                "Apa saja fasilitas yang tersedia di Fakultas Teknik & Teknologi Informasi?",
+                "Fasilitas apa yang ada di FTTI?",
+                "Bisa jelaskan fasilitas di FTTI?",
+                "Apa fasilitas di Fakultas Teknik & Teknologi Informasi Unjaya?",
+                "Fasilitas apa yang dimiliki FTTI di Unjaya?",
+                "Fasilitas kampus yang bisa digunakan apa saja?"
+            ],
+            "responses": [
+                "Fakultas Teknik & Teknologi Informasi menempati gedung kampus 1 Universitas Jenderal A. Yani Yogyakarta. Guna mendukung aktivitas akademik, telah tersedia fasilitas berikut ini di FTTI:\n\n- Ruang Kelas\n- Laboratorium Komputer\n- Wi-fi Coverage\n- Perpustakaan\n\nLayanan untuk keperluan akademik UNJANI Yogyakarta dilayani di 3 (tiga) loket, yakni:\n\n1. **Loket Operasional Pendidikan (Opsdik)**, di Gedung Utama, Lantai 2\n   - Loket ini melayani informasi seputar Perkuliahan, Magang Kerja, Tugas Akhir, Sertifikasi, Ujian, Dosen.\n\n2. **Loket Akademik**, di Gedung Akademik, Lantai 1\n   - Loket ini melayani keperluan seputar KRS, KHS, Transkrip Nilai, Legalisir Ijazah, Akreditasi, Portal Akademik, Yudisium, dan Wisuda.\n\n3. **Loket Keuangan**, di Gedung Akademik, Lantai 1\n   - Loket ini melayani pembayaran SPP, biaya wisuda, dan biaya pendukung akademik lainnya.\n\nLoket dibuka pada jam kerja setiap harinya. Mahasiswa disilakan menuju loket yang sesuai dengan keperluan akademiknya."
+            ]
+        },
+        {
+            "tag": "cara_krs",
+            "patterns": [
+                "Bagaimana cara melakukan KRS?",
+                "Langkah-langkah KRS di Unjaya",
+                "Proses KRS mahasiswa",
+                "Bagaimana melakukan KRS di Pordik?",
+                "Cara mengisi KRS",
+                "Langkah-langkah mengisi KRS",
+                "Bagaimana cara mengisi KRS?",
+                "Cara KRS online di Unjaya",
+                "Prosedur pengisian KRS",
+                "Tahapan mengisi KRS",
+                "Bagaimana alur KRS di Pordik?",
+                "Apa yang harus dilakukan untuk KRS?",
+                "Bagaimana langkah-langkah KRS?",
+                "KRS di Unjaya bagaimana prosedurnya?"
+            ],
+            "responses": [
+                "Untuk melakukan KRS, mahasiswa dapat mengunjungi Pordik Mahasiswa (https://pordik.unjaya.ac.id/) dan melakukan login pada akun masing-masing. Pilih bagian Kartu Rencana Studi. Sebelum melakukan KRS, lakukan bimbingan dengan Dosen Pembimbing Akademik (DPA) terlebih dahulu."
+            ]
+        },
+        {
+            "tag": "syarat_krs",
+            "patterns": [
+                "Apa syarat melakukan KRS?",
+                "Syarat KRS di Unjaya",
+                "Persyaratan untuk KRS",
+                "Apa saja yang diperlukan untuk KRS?",
+                "Ketentuan KRS di Unjaya",
+                "KRS online di Unjaya seperti apa?",
+                "Apa yang harus dipersiapkan untuk KRS?"
+            ],
+            "responses": [
+                "Syarat melakukan KRS adalah mahasiswa telah melunasi biaya pendidikan yang tertagih di Pordik Mahasiswa (https://pordik.unjaya.ac.id/). Pembayaran biaya pendidikan hanya dapat dilakukan melalui Virtual Account. Video tutorial pembayaran SPP dapat dilihat kembali pada tautan: https://s.id/tutorial-VA-SPP."
+            ]
+        },
+        {
+            "tag": "krs_kip",
+            "patterns": [
+                "Bagaimana cara KRS untuk mahasiswa KIP?",
+                "Prosedur KRS bagi mahasiswa KIP",
+                "KRS untuk mahasiswa jalur KIP",
+                "Bagaimana mahasiswa KIP mengisi KRS?",
+                "Proses pengisian KRS untuk mahasiswa KIP",
+                "Langkah-langkah KRS untuk mahasiswa KIP",
+                "Cara mengurus KRS bagi mahasiswa KIP"
+            ],
+            "responses": [
+                "Bagi mahasiswa jalur masuk KIP agar dapat menghubungi Dosen Pembimbing Akademik (DPA) masing-masing dengan menyertakan daftar mata kuliah yang akan diambil agar dapat dibantu proses pengisian KRS oleh DPA."
+            ]
+        },
+        {
+            "tag": "krs_mahasiswa_nonaktif",
+            "patterns": [
+                "Bagaimana cara KRS untuk mahasiswa non-aktif?",
+                "Proses KRS bagi mahasiswa yang non-aktif",
+                "Apa yang harus dilakukan jika saya non-aktif dan ingin KRS?",
+                "Langkah KRS bagi mahasiswa non-aktif",
+                "Bagaimana cara KRS bagi mahasiswa yang tidak aktif?",
+                "Prosedur KRS untuk mahasiswa non-aktif",
+                "Apa yang harus dilakukan jika status mahasiswa saya non-aktif dan ingin melakukan KRS?",
+                "Langkah-langkah KRS bagi mahasiswa yang non-aktif",
+                "Apa saja yang harus dilakukan jika saya non-aktif dan ingin melakukan KRS?"
+            ],
+            "responses": [
+                "Bagi mahasiswa non-aktif dan apabila akan aktif kembali pada Semester selanjutnya, mohon untuk dapat menghubungi DPA. Selanjutnya DPA akan menginformasikan kepada BAAK dan BUKK."
+            ]
+        },
+        {
+            "tag": "denda_non_aktif",
+            "patterns": [
+                "Apa konsekuensi tidak mengisi KRS?",
+                "Apa denda jika tidak mengisi KRS?",
+                "Konsekuensi tidak melakukan KRS",
+                "Biaya non-aktif karena tidak KRS",
+                "Denda jika tidak mengisi KRS",
+                "Sanksi tidak melakukan KRS",
+                "Kesalahan apa yang akan dikenai denda tidak mengisi KRS?"
+            ],
+            "responses": [
+                "Bagi mahasiswa yang tidak melakukan pengisian KRS pada periode yang telah ditentukan, maka dinyatakan Non-Aktif dan dikenakan biaya Non Aktif sebesar Rp. 250.000/semester yang dibayarkan pada saat akan aktif kembali."
+            ]
+        },
+        {
+            "tag": "kendala_pembayaran",
+            "patterns": [
+                "Bagaimana jika ada kendala terkait pembayaran biaya pendidikan?",
+                "Kendala pembayaran biaya pendidikan",
+                "Kesulitan membayar biaya pendidikan",
+                "Masalah pembayaran biaya pendidikan",
+                "Prosedur penyelesaian kendala pembayaran",
+                "Apa yang harus dilakukan saat mengalami kendala pembayaran?",
+                "Saya mengalami kesulitan dalam pembayaran biaya pendidikan, bagaimana mengatasinya?"
+            ],
+            "responses": [
+                "Apabila terdapat kendala terkait dengan pembayaran biaya pendidikan, mohon kehadirannya ke Bagian UKK FTTI, Gedung B, Kampus 1 Unjaya atau bisa menghubungi Hotline Keuangan melalui nomor WA https://wa.me/628112644802."
+            ]
+        },
+        {
+            "tag": "tutorial_pembayaran_spp",
+            "patterns": [
+                "Bagaimana cara membayar SPP?",
+                "Tutorial pembayaran SPP",
+                "Cara membayar SPP di Unjaya",
+                "Video tutorial pembayaran SPP",
+                "Prosedur pembayaran SPP",
+                "Langkah-langkah membayar SPP",
+                "Saya tidak tahu cara membayar SPP, bisa dijelaskan?"
+            ],
+            "responses": [
+                "Pembayaran biaya pendidikan hanya dapat dilakukan melalui Virtual Account. Video tutorial pembayaran SPP dapat dilihat kembali pada tautan: https://s.id/tutorial-VA-SPP."
+            ]
+        },
+        {
+            "tag": "tujuan_kampus_merdeka",
+            "patterns": [
+                "Apa tujuan Kampus Merdeka?",
+                "Apa tujuan dari program magang MBKM?",
+                "Mengapa program magang MBKM diadakan?",
+                "Tujuan MBKM magang"
+            ],
+            "responses": [
+                "Tujuan kebijakan Kampus Merdeka adalah memberikan kesempatan kepada mahasiswa untuk memilih mata kuliah yang akan mereka tempuh berdasarkan keinginan sendiri serta mendorong mahasiswa meningkatkan soft skills serta hard skills agar siap bersaing dalam dunia global."
+            ]
+        },
+        {
+            "tag": "persyaratan_umum_mbkm",
+            "patterns": [
+                "Apa saja persyaratan umum untuk magang?",
+                "Syarat apa yang harus dipenuhi untuk program magang?",
+                "Persyaratan umum MBKM apa saja?",
+                "Apa syarat untuk mengikuti program magang?",
+                "Apa saja persyaratan umum untuk mengikuti program MBKM?",
+                "Syarat mengikuti MBKM di universitas saya?",
+                "Apa yang harus dipenuhi untuk ikut MBKM?",
+                "Persyaratan umum MBKM?",
+                "Syarat mengikuti MSIB?",
+                "Apa saja syarat untuk mengikuti MBKM?",
+                "Apa persyaratan untuk program MBKM?",
+                "Bagaimana persyaratan umum untuk MBKM?",
+                "Syarat umum MBKM apa saja?"
+            ],
+            "responses": [
+                "Persyaratan umum untuk MBKM adalah:\n1. Mahasiswa program sarjana minimal semester 6 dan program diploma minimal semester 5 serta dinyatakan lulus di semua mata kuliah.\n2. Terdaftar sebagai mahasiswa aktif di Unjaya atau tidak sedang cuti kuliah dan terdaftar di PD Dikti.\n3. Memiliki IPK minimal 3.00 dari skala 4.00.\n4. Tidak mempunyai tunggakan administrasi biaya kuliah.\n5. Memperoleh rekomendasi tertulis dari pembimbing akademik dan ketua prodi yang disetujui oleh Dekan.\n6. Bersedia melaksanakan kegiatan magang di mitra selama waktu yang telah disepakati."
+            ]
+        },
+        {
+            "tag": "persyaratan_semester_msib",
+            "patterns": [
+                "Berapa minimal semester untuk bisa ikut MSIB?",
+                "Semester berapa bisa ikut MSIB?",
+                "Syarat semester untuk MSIB",
+                "Minimal semester untuk Program MSIB",
+                "Apakah ada syarat semester untuk mengikuti MSIB?",
+                "Saya sudah berapa semester bisa mengikuti MSIB?",
+                "Dapatkah saya mengikuti MSIB setelah beberapa semester?"
+            ],
+            "responses": [
+                "Mahasiswa program sarjana minimal semester 6 dan program diploma minimal semester 5 serta dinyatakan lulus di semua mata kuliah."
+            ]
+        },
+        {
+            "tag": "bentuk_kegiatan_magang",
+            "patterns": [
+                "Apa bentuk kegiatan program magang?",
+                "Kegiatan apa saja yang dilakukan dalam program magang?",
+                "Bagaimana bentuk kegiatan program magang?",
+                "Apa saja bentuk kegiatan dalam program magang?",
+                "Jenis-jenis kegiatan dalam program magang",
+                "Bentuk kegiatan yang harus dilakukan dalam magang",
+                "Detail kegiatan yang akan dilakukan dalam program magang"
+            ],
+            "responses": [
+                "Bentuk kegiatan program magang:\n1. Program magang dapat dilakukan di industri atau Dudi selama 4-6 bulan yang diakui setara dengan 20 SKS.\n2. Magang harus sesuai dengan kompetensi bidang ilmu sehingga sesuai dengan Program Studi CPL."
+            ]
+        },
+        {
+            "tag": "skema_program",
+            "patterns": [
+                "Apa skema program MBKM magang?",
+                "Skema program MBKM magang apa saja?",
+                "Jelaskan skema program MBKM magang.",
+                "Skema program MBKM magang Kemdikbud Ristek seperti apa?",
+                "Bagaimana program MBKM magang disusun?",
+                "Saya ingin tahu lebih detail tentang skema program MBKM magang.",
+                "Apakah ada variasi skema program MBKM magang?"
+            ],
+            "responses": [
+                "Skema program MBKM magang:\n1. Skema program MBKM magang Kemdikbud Ristek: Program magang yang dibuka oleh Kementerian Pendidikan dan Kebudayaan Republik Indonesia.\n2. Skema program MBKM magang mandiri Unjaya: Program penelitian skema magang mandiri Unjaya merupakan inisiasi program studi yang membuka peluang bagi mahasiswa untuk melakukan magang di tempat mitra yang sudah ditentukan oleh prodi."
+            ]
+        },
+        {
+            "tag": "magang_MSIB",
+            "patterns": [
+                "Bagaimana alur ikut msib?",
+                "gimana alur pendaftaran msib?",
+                "bagaimana cara mengikuti msib",
+                "bagaimana panduan mengikuti msib di unjaya?",
+                "bagaimana panduan mengikuti msib di ftti?",
+                "bagaimana tahap skema magang msib?",
+                "bagaimana tahap skema magang mbkm?",
+                "Apa yang harus dilakukan untuk mengikuti MSIB MBKM?",
+                "Tahapan MSIB MBKM seperti apa?"
+            ],
+            "responses": [
+                "Baik, Kamu dapat mengikuti ini:\nTahapan pra KRS skema magang Kemdikbud Ristek:\n1. Mahasiswa mencari pengumuman tentang peluang program MBKM melalui https://kampusmerdeka.kemdikbud.go.id/\n2. Mahasiswa menghubungi DPA dan memaparkan proposal rencana studi mengikuti program kepada DPA.\n3. DPA memberikan surat rekomendasi kepada Ketua Prodi.\n4. Program studi bersama dengan GMB menentukan rencana rekognisi yang kemudian disetujui oleh Wadek 1.\n5. Surat Rancangan Rekognisi disimpan ke DPA dan diinformasikan kepada mahasiswa.\n6. Mahasiswa mengunduh template dokumen persyaratan di https://bit.ly/Dokumen-MBKM.\n7. Mahasiswa melengkapi dokumen persyaratan dan mengunggah di https://bit.ly/MBKM_Unjaya.\nBiro Pengembangan Pembelajaran (BPP) memproses surat rekomendasi.\n9) Wakil Rektor 1 menandatangani surat rekomendasi.\n10) Mahasiswa mendapatkan surat rekomendasi.\n11) Mahasiswa mengikuti rangkaian seleksi dari penyelenggara.\n12) Pengumuman hasil seleksi.\n13) Mahasiswa menginformasikan hasil pengumuman ke DPA"
+            ]
+        },
+        {
+            "tag": "magang_mandiri",
+            "patterns": [
+                "Bagaimana alur ikut magang mandiri?",
+                "Gimana alur pendaftaran magang mandiri?",
+                "Bagaimana cara mengikuti magang mandiri?",
+                "Bagaimana panduan mengikuti magang mandiri di UNJAYA?",
+                "Bagaimana panduan mengikuti magang mandiri di FTTI?",
+                "Bagaimana tahap skema magang mandiri?",
+                "Apa saja tahapan dalam skema magang mandiri?",
+                "Apa yang harus dilakukan untuk mengikuti magang mandiri?",
+                "Tahapan magang mandiri seperti apa?",
+                "Langkah-langkah untuk ikut magang mandiri?",
+                "Prosedur pendaftaran magang mandiri bagaimana?",
+                "Cara mendaftar magang mandiri?",
+                "Bagaimana proses magang mandiri di UNJAYA?",
+                "Apa syarat untuk magang mandiri?",
+                "Bagaimana proses pendaftaran magang mandiri?",
+                "Bagaimana alur magang mandiri di universitas?",
+                "Apa saja yang diperlukan untuk mendaftar magang mandiri?",
+                "Bagaimana cara mendaftar program magang mandiri?",
+                "Panduan magang mandiri seperti apa?",
+                "Bagaimana cara mengikuti program magang mandiri?"
+            ],
+            "responses": [
+                "Untuk mengikuti magang mandiri, kamu dapat mengikuti tahap-tahap ini:\n1. Mahasiswa mencari pengumuman tentang peluang program magang mandiri melalui website https://ftti.unjaya.ac.id/ \n2. Mahasiswa menghubungi DPA dan memaparkan proposal rencana studi mengikuti program kepada DPA.\n3. DPA memberikan surat rekomendasi kepada Ketua Prodi.\n4. Program studi bersama dengan GMB menentukan rencana rekognisi yang kemudian disetujui oleh Wadek 1.\n5. Surat Rancangan Rekognisi disimpan ke DPA dan diinformasikan kepada mahasiswa.\n6. Mahasiswa mengunduh template dokumen persyaratan di https://bit.ly/Dokumen-MBKM.\n7. Mahasiswa melengkapi dokumen persyaratan dan mengunggah di https://bit.ly/MBKM_Unjaya.\nBiro Pengembangan Pembelajaran (BPP) memproses surat rekomendasi.\n9) Wakil Rektor 1 menandatangani surat rekomendasi.\n10) Mahasiswa mendapatkan surat rekomendasi.\n11) Mahasiswa mengikuti rangkaian seleksi dari program studi (jika ada) atau seleksi dari mitra.\n12) Program Studi mengumumkan hasil seleksi kepada mahasiswa dan DPA"
+            ]
+        },
+        {
+            "tag": "mitra_magang_mandiri",
+            "patterns": [
+                "Mitra magang mandiri apa saja?",
+                "Perusahaan apa saja yang bekerja sama dengan FTTI?",
+                "Apa saja mitra FTTI?",
+                "Apa saja perusahaan yang bermitra dengan FTTI/Fakultas?",
+                "Perusahaan mana saja yang menjadi mitra magang mandiri?",
+                "FTTI bekerja sama dengan perusahaan apa saja?",
+                "Apa saja perusahaan mitra untuk program magang mandiri?",
+                "FTTI memiliki mitra magang mandiri apa saja?",
+                "Perusahaan apa yang bermitra dengan FTTI untuk magang mandiri?",
+                "Daftar perusahaan mitra FTTI apa saja?"
+            ],
+            "responses": [
+                "Perusahaan yang bekerja sama dengan FTTI yaitu Botika, Red Ant Colony, Sadasa, Zettabyte, Exabyte, dan lainnya.",
+                "FTTI bekerja sama dengan berbagai perusahaan seperti Botika, Red Ant Colony, Sadasa, Zettabyte, Exabyte, dan lain-lain.",
+                "Mitra magang mandiri FTTI meliputi Botika, Red Ant Colony, Sadasa, Zettabyte, Exabyte, dan lainnya.",
+                "Perusahaan yang bermitra dengan FTTI antara lain Botika, Red Ant Colony, Sadasa, Zettabyte, Exabyte, dan lain sebagainya.",
+                "Beberapa mitra magang mandiri FTTI adalah Botika, Red Ant Colony, Sadasa, Zettabyte, Exabyte, dan lainnya.",
+                "FTTI memiliki mitra magang mandiri seperti Botika, Red Ant Colony, Sadasa, Zettabyte, Exabyte, dan banyak lagi.",
+                "Perusahaan yang menjadi mitra FTTI untuk program magang mandiri meliputi Botika, Red Ant Colony, Sadasa, Zettabyte, Exabyte, dan lainnya.",
+                "Daftar perusahaan mitra FTTI termasuk Botika, Red Ant Colony, Sadasa, Zettabyte, Exabyte, dan lain-lain.",
+                "Beberapa perusahaan yang bekerja sama dengan FTTI adalah Botika, Red Ant Colony, Sadasa, Zettabyte, Exabyte, dan lain-lain."
+            ]
+        },
+        {
+            "tag": "dokumen_persyaratan",
+            "patterns": [
+                "Dokumen apa saja yang dibutuhkan untuk MBKM magang?",
+                "Dokumen persyaratan untuk magang apa saja?",
+                "Apa saja dokumen yang perlu disiapkan untuk MBKM magang?",
+                "Dokumen persyaratan apa yang dibustuhkan untuk mengikuti MBKM magang?",
+                "Persyaratan dokumen apa yang diperlukan untuk MBKM magang?",
+                "Apa saja berkas yang harus dikumpulkan untuk MBKM magang?",
+                "Berkas apa saja yang dibutuhkan untuk program magang MBKM?",
+                "Dokumen penting apa yang perlu disiapkan untuk MBKM magang?",
+                "Apa saja yang harus dipersiapkan untuk MBKM magang?",
+                "Apa dokumen wajib untuk program MBKM magang?",
+                "Apa saja syarat dokumen untuk MBKM magang?"
+            ],
+            "responses": [
+                "Dokumen persyaratan yang dibutuhkan untuk MBKM magang:\n1. Kartu Tanda Mahasiswa (KTM).\n2. Surat rekomendasi rencana rekognisi.\n3. Surat Pernyataan Tanggung Jawab Mutlak (SPTJM).\n4. Kartu Hasil Studi (KHS) terakhir.\n5. Pakta Keabsahan.",
+                "Untuk mengikuti MBKM magang, Anda perlu menyiapkan dokumen-dokumen berikut:\n1. Kartu Tanda Mahasiswa (KTM).\n2. Surat rekomendasi rencana rekognisi.\n3. Surat Pernyataan Tanggung Jawab Mutlak (SPTJM).\n4. Kartu Hasil Studi (KHS) terakhir.\n5. Pakta Keabsahan.",
+                "Dokumen yang harus disiapkan untuk MBKM magang antara lain:\n1. Kartu Tanda Mahasiswa (KTM).\n2. Surat rekomendasi rencana rekognisi.\n3. Surat Pernyataan Tanggung Jawab Mutlak (SPTJM).\n4. Kartu Hasil Studi (KHS) terakhir.\n5. Pakta Keabsahan.",
+                "Berikut adalah dokumen persyaratan yang diperlukan untuk mengikuti MBKM magang:\n1. Kartu Tanda Mahasiswa (KTM).\n2. Surat rekomendasi rencana rekognisi.\n3. Surat Pernyataan Tanggung Jawab Mutlak (SPTJM).\n4. Kartu Hasil Studi (KHS) terakhir.\n5. Pakta Keabsahan.",
+                "Untuk MBKM magang, Anda memerlukan dokumen-dokumen berikut:\n1. Kartu Tanda Mahasiswa (KTM).\n2. Surat rekomendasi rencana rekognisi.\n3. Surat Pernyataan Tanggung Jawab Mutlak (SPTJM).\n4. Kartu Hasil Studi (KHS) terakhir.\n5. Pakta Keabsahan.",
+                "Dokumen yang diperlukan untuk MBKM magang meliputi:\n1. Kartu Tanda Mahasiswa (KTM).\n2. Surat rekomendasi rencana rekognisi.\n3. Surat Pernyataan Tanggung Jawab Mutlak (SPTJM).\n4. Kartu Hasil Studi (KHS) terakhir.\n5. Pakta Keabsahan.",
+                "Syarat dokumen untuk MBKM magang adalah:\n1. Kartu Tanda Mahasiswa (KTM).\n2. Surat rekomendasi rencana rekognisi.\n3. Surat Pernyataan Tanggung Jawab Mutlak (SPTJM).\n4. Kartu Hasil Studi (KHS) terakhir.\n5. Pakta Keabsahan.",
+                "Untuk MBKM magang, berikut adalah dokumen yang perlu disiapkan:\n1. Kartu Tanda Mahasiswa (KTM).\n2. Surat rekomendasi rencana rekognisi.\n3. Surat Pernyataan Tanggung Jawab Mutlak (SPTJM).\n4. Kartu Hasil Studi (KHS) terakhir.\n5. Pakta Keabsahan.",
+                "Dokumen yang harus dikumpulkan untuk MBKM magang adalah:\n1. Kartu Tanda Mahasiswa (KTM).\n2. Surat rekomendasi rencana rekognisi.\n3. Surat Pernyataan Tanggung Jawab Mutlak (SPTJM).\n4. Kartu Hasil Studi (KHS) terakhir.\n5. Pakta Keabsahan."
+            ]
+        },
+        {
+            "tag": "pengisian_krs",
+            "patterns": [
+                "Bagaimana pengisian KRS untuk program MBKM magang?",
+                "Pengisian KRS untuk MBKM magang seperti apa?",
+                "Apa langkah-langkah pengisian KRS untuk MBKM magang?",
+                "Jelaskan cara pengisian KRS untuk MBKM magang.",
+                "Bagaimana cara mengisi KRS untuk program magang MBKM?",
+                "Langkah-langkah pengisian KRS untuk MBKM magang bagaimana?",
+                "Bagaimana prosedur pengisian KRS untuk MBKM magang?",
+                "Panduan pengisian KRS untuk MBKM magang bagaimana?",
+                "Apa saja yang perlu dilakukan untuk mengisi KRS program MBKM magang?",
+                "Apa proses pengisian KRS untuk MBKM magang?"
+            ],
+            "responses": [
+                "Pengisian KRS untuk program MBKM magang:\n1. Mahasiswa memilih jenis program MBKM yang akan diikuti yaitu Program MBKM Magang Kemdikbud Ristek/Program MBKM Magang mandiri Unjaya, pada https://pordik.unjaya.ac.id.\n2. Pada prodik akan muncul secara otomatis daftar mata kuliah yang sesuai dengan rencana pengakuan dan siswa memastikan kesesuaiannya.\n3. DPA melakukan validasi MK yang dipilih oleh siswa.\n4. Mahasiswa melakukan pembayaran sesuai dengan tagihan yang muncul pada pordik.",
+                "Untuk mengisi KRS program MBKM magang, ikuti langkah-langkah berikut:\n1. Pilih jenis program MBKM yang diikuti di https://pordik.unjaya.ac.id.\n2. Daftar mata kuliah akan muncul otomatis sesuai rencana pengakuan, pastikan kesesuaiannya.\n3. DPA memvalidasi mata kuliah yang dipilih.\n4. Lakukan pembayaran sesuai tagihan di pordik.",
+                "Langkah-langkah pengisian KRS untuk MBKM magang adalah:\n1. Pilih program MBKM Magang Kemdikbud Ristek/mandiri Unjaya di https://pordik.unjaya.ac.id.\n2. Pastikan daftar mata kuliah sesuai rencana pengakuan.\n3. DPA melakukan validasi mata kuliah.\n4. Bayar sesuai tagihan yang muncul di pordik.",
+                "Berikut cara pengisian KRS untuk MBKM magang:\n1. Pilih program MBKM Magang di https://pordik.unjaya.ac.id.\n2. Verifikasi daftar mata kuliah yang muncul.\n3. Validasi oleh DPA.\n4. Bayar sesuai tagihan di pordik.",
+                "Prosedur pengisian KRS untuk MBKM magang:\n1. Pilih program di https://pordik.unjaya.ac.id.\n2. Verifikasi daftar mata kuliah sesuai rencana.\n3. Validasi oleh DPA.\n4. Lakukan pembayaran tagihan di pordik.",
+                "Panduan pengisian KRS MBKM magang:\n1. Pilih program di https://pordik.unjaya.ac.id.\n2. Periksa daftar mata kuliah.\n3. Validasi oleh DPA.\n4. Bayar tagihan di pordik.",
+                "Untuk mengisi KRS MBKM magang, lakukan:\n1. Pilih program di https://pordik.unjaya.ac.id.\n2. Verifikasi mata kuliah.\n3. Validasi oleh DPA.\n4. Bayar tagihan di pordik.",
+                "Langkah pengisian KRS MBKM magang:\n1. Pilih program di https://pordik.unjaya.ac.id.\n2. Pastikan daftar mata kuliah benar.\n3. Validasi oleh DPA.\n4. Bayar tagihan di pordik.",
+                "Proses pengisian KRS MBKM magang:\n1. Pilih program di https://pordik.unjaya.ac.id.\n2. Verifikasi mata kuliah.\n3. Validasi oleh DPA.\n4. Bayar tagihan di pordik.",
+                "Cara pengisian KRS untuk program MBKM magang:\n1. Pilih program di https://pordik.unjaya.ac.id.\n2. Verifikasi mata kuliah yang muncul.\n3. Validasi oleh DPA.\n4. Bayar tagihan di pordik."
+            ]
+        },
+        {
+            "tag": "dekan",
+            "patterns": [
+                "Siapa Dekan saat ini?",
+                "Siapa yang menjabat sebagai Dekan?",
+                "Nama Dekan Fakultas",
+                "Dekan Fakultas siapa?",
+                "Dekan di fakultas sekarang siapa?",
+                "Bisakah Anda memberitahu siapa Dekan Fakultas saat ini?",
+                "Siapa nama Dekan yang sedang menjabat?",
+                "Dekan saat ini siapa?",
+                "Siapa pak Aris?",
+                "Siapa Dekan Fakultas Teknik dan Teknologi Informasi?",
+                "Siapa yang menjadi Dekan sekarang?",
+                "Siapa pemimpin fakultas saat ini?",
+                "Dekan fakultas saat ini siapa namanya?",
+                "Siapa yang memimpin fakultas sekarang?",
+                "Nama Dekan yang sekarang siapa?",
+                "Siapa yang memimpin Fakultas Teknik dan Teknologi Informasi?"
+            ],
+            "responses": [
+                "Pak Aris adalah Dekan Fakultas Teknik dan Teknologi Informasi saat ini. Nama lengkapnya adalah Bapak Aris Wahyu Murdiyanto, S.Kom., M.Cs.",
+                "Dekan Fakultas Teknik dan Teknologi Informasi saat ini adalah Bapak Aris Wahyu Murdiyanto, S.Kom., M.Cs.",
+                "Bapak Aris Wahyu Murdiyanto, S.Kom., M.Cs., adalah Dekan Fakultas Teknik dan Teknologi Informasi saat ini.",
+                "Saat ini, Dekan Fakultas Teknik dan Teknologi Informasi dijabat oleh Bapak Aris Wahyu Murdiyanto, S.Kom., M.Cs.",
+                "Bapak Aris Wahyu Murdiyanto, S.Kom., M.Cs., adalah Dekan yang sedang menjabat di Fakultas Teknik dan Teknologi Informasi.",
+                "Dekan yang menjabat saat ini adalah Bapak Aris Wahyu Murdiyanto, S.Kom., M.Cs., di Fakultas Teknik dan Teknologi Informasi.",
+                "Saat ini, Bapak Aris Wahyu Murdiyanto, S.Kom., M.Cs., memimpin sebagai Dekan Fakultas Teknik dan Teknologi Informasi.",
+                "Nama Dekan Fakultas Teknik dan Teknologi Informasi saat ini adalah Bapak Aris Wahyu Murdiyanto, S.Kom., M.Cs.",
+                "Fakultas Teknik dan Teknologi Informasi saat ini dipimpin oleh Bapak Aris Wahyu Murdiyanto, S.Kom., M.Cs.",
+                "Bapak Aris Wahyu Murdiyanto, S.Kom., M.Cs., adalah Dekan saat ini di Fakultas Teknik dan Teknologi Informasi."
+            ]
+        },
+        {
+            "tag": "wakil_dekan_1",
+            "patterns": [
+                "Siapa Wakil Dekan I?",
+                "Siapa Wakil Dekan bidang Akademik dan Kemahasiswaan?",
+                "Nama Wakil Dekan I",
+                "Wakil Dekan I Fakultas",
+                "Wakil Dekan I Unjaya siapa?",
+                "Siapa yang menjabat sebagai Wakil Dekan I?",
+                "Wakil Dekan I sekarang siapa?",
+                "Wakil Dekan I di Fakultas saat ini siapa?",
+                "Bisakah Anda memberitahu siapa Wakil Dekan I saat ini?",
+                "Siapa Pak Cahyo?",
+                "siapa wadek 1 ftti?"
+            ],
+            "responses": [
+                "Wakil Dekan I (Bidang Akademik & Kemahasiswaan) adalah Bapak Puji Winar Cahyo, S.Kom., M.Cs."
+            ]
+        },
+        {
+            "tag": "wakil_dekan_2",
+            "patterns": [
+                "Siapa Wakil Dekan II?",
+                "Siapa Wakil Dekan bidang Administrasi dan Kerjasama?",
+                "Nama Wakil Dekan II",
+                "Wakil Dekan II Fakultas",
+                "Wakil Dekan II sekarang siapa?",
+                "Wakil Dekan II di Fakultas saat ini siapa?",
+                "Siapa yang menjabat sebagai Wakil Dekan II?",
+                "Bisakah Anda memberitahu siapa Wakil Dekan II saat ini?",
+                "Wakil Dekan II Unjaya siapa?",
+                "Siapa Ibu Kartikadyota?",
+                "siapa wadek 2 ftti?",
+                "Siapa bu Kartikadyota?"
+            ],
+            "responses": [
+                "Wakil Dekan II (Bidang Administrasi & Kerjasama) adalah Ibu Kartikadyota Kusumaningtyas, S.Pd., M.Cs."
+            ]
+        },
+        {
+            "tag": "kepala_spm",
+            "patterns": [
+                "Siapa Kepala Satuan Penjamin Mutu?",
+                "Siapa Kepala SPM?",
+                "Nama Kepala Satuan Penjamin Mutu",
+                "Kepala SPM Fakultas",
+                "Siapa yang menjabat sebagai Kepala SPM?",
+                "Kepala SPM sekarang siapa?",
+                "Kepala SPM di Fakultas saat ini siapa?",
+                "Bisakah Anda memberitahu siapa Kepala SPM saat ini?",
+                "Kepala SPM Unjaya siapa?"
+            ],
+            "responses": [
+                "Kepala Satuan Penjamin Mutu (SPM) adalah Bapak Arief Ikhwan Wicaksono, S.Kom., M.Cs."
+            ]
+        },
+        {
+            "tag": "kepala_pppm",
+            "patterns": [
+                "Siapa Kepala Pusat Penelitian dan Pengabdian Masyarakat?",
+                "Siapa Kepala PPPM?",
+                "Nama Kepala Pusat Penelitian dan Pengabdian Masyarakat",
+                "Kepala PPPM Fakultas",
+                "Siapa yang menjabat sebagai Kepala PPPM?",
+                "Kepala PPPM sekarang siapa?",
+                "Kepala PPPM di Fakultas saat ini siapa?",
+                "Bisakah Anda memberitahu siapa Kepala PPPM saat ini?",
+                "Kepala PPPM Unjaya siapa?",
+                "Siapa Ibu Ulfi?",
+                "Siapa bu Ulfi?"
+            ],
+            "responses": [
+                "Kepala Pusat Penelitian dan Pengabdian Masyarakat (PPPM) adalah Ibu Ulfi Saidata Aesyi, S.Kom., M.Cs."
+            ]
+        },
+        {
+            "tag": "kepala_lab",
+            "patterns": [
+                "Siapa Kepala Laboratorium Teknologi Informasi dan Komputer?",
+                "Siapa Kepala Lab TI dan Komputer?",
+                "Nama Kepala Lab Teknologi Informasi dan Komputer",
+                "Kepala Lab TI dan Komputer Fakultas",
+                "Siapa yang menjabat sebagai Kepala Lab TI dan Komputer?",
+                "Kepala Lab TI dan Komputer sekarang siapa?",
+                "Kepala Lab TI dan Komputer di Fakultas saat ini siapa?",
+                "Bisakah Anda memberitahu siapa Kepala Lab TI dan Komputer saat ini?",
+                "Kepala Lab TI dan Komputer Unjaya siapa?",
+                "Siapa pak Chanief?"
+            ],
+            "responses": [
+                "Kepala Laboratorium Teknologi Informasi dan Komputer adalah Bapak Chanief Budi Setiawan, S.T., M.Eng."
+            ]
+        },
+        {
+            "tag": "ketua_gkm_ti",
+            "patterns": [
+                "Siapa Ketua Gugus Kendali Mutu Prodi Teknologi Informasi?",
+                "Siapa Ketua GKM TI?",
+                "Nama Ketua Gugus Kendali Mutu Teknologi Informasi",
+                "Ketua GKM TI Fakultas"
+            ],
+            "responses": [
+                "Ketua Gugus Kendali Mutu Program Studi S-1 Teknologi Informasi adalah Ibu Alfirna Rizqi Lahitani, S.Kom., M.Eng."
+            ]
+        },
+        {
+            "tag": "ketua_prodi_informatika",
+            "patterns": [
+                "Siapa Ketua Program Studi S-1 Informatika?",
+                "Siapa Ketua Prodi Informatika?",
+                "Nama Ketua Program Studi Informatika",
+                "Ketua Prodi Informatika Fakultas",
+                "Siapa yang menjabat sebagai Ketua Prodi Informatika?",
+                "Ketua Prodi Informatika sekarang siapa?",
+                "Ketua Prodi Informatika di Fakultas saat ini siapa?",
+                "Bisakah Anda memberitahu siapa Ketua Prodi Informatika saat ini?",
+                "Ketua Prodi Informatika Unjaya siapa?",
+                "Siapa pak Asnawi?"
+            ],
+            "responses": [
+                "Ketua Program Studi S-1 Informatika adalah Bapak Choerun Asnawi, S.Kom., M.Kom."
+            ]
+        },
+        {
+            "tag": "sekretaris_prodi_informatika",
+            "patterns": [
+                "Siapa Sekretaris Program Studi S-1 Informatika?",
+                "Siapa Sekretaris Prodi Informatika?",
+                "Nama Sekretaris Program Studi Informatika",
+                "Sekretaris Prodi Informatika Fakultas",
+                "Siapa pak Dayat?"
+            ],
+            "responses": [
+                "Sekretaris Program Studi S-1 Informatika adalah Bapak Dayat Subekti, S.Si., M.Kom."
+            ]
+        },
+        {
+            "tag": "ketua_prodi_sistem_informasi",
+            "patterns": [
+                "Siapa Ketua Program Studi S-1 Sistem Informasi?",
+                "Siapa Ketua Prodi Sistem Informasi?",
+                "Nama Ketua Program Studi Sistem Informasi",
+                "Ketua Prodi Sistem Informasi Fakultas",
+                "Siapa Pak Hanafi?",
+                "Siapa yang menjabat sebagai Ketua Prodi Sistem Informasi?",
+                "Ketua Prodi Sistem Informasi sekarang siapa?",
+                "Ketua Prodi Sistem Informasi di Fakultas saat ini siapa?",
+                "Bisakah Anda memberitahu siapa Ketua Prodi Sistem Informasi saat ini?",
+                "Ketua Prodi Sistem Informasi Unjaya siapa?"
+            ],
+            "responses": [
+                "Ketua Program Studi S-1 Sistem Informasi adalah Bapak Ahmad Hanafi, S.T., M.Eng."
+            ]
+        },
+        {
+            "tag": "sekretaris_prodi_sistem_informasi",
+            "patterns": [
+                "Siapa Sekretaris Program Studi S-1 Sistem Informasi?",
+                "Siapa Sekretaris Prodi Sistem Informasi?",
+                "Nama Sekretaris Program Studi Sistem Informasi",
+                "Sekretaris Prodi Sistem Informasi Fakultas",
+                "Siapa yang menjabat sebagai Sekretaris Prodi Sistem Informasi?",
+                "Sekretaris Prodi Sistem Informasi sekarang siapa?",
+                "Sekretaris Prodi Sistem Informasi di Fakultas saat ini siapa?",
+                "Bisakah Anda memberitahu siapa Sekretaris Prodi Sistem Informasi saat ini?",
+                "Sekretaris Prodi Sistem Informasi Unjaya siapa?",
+                "Siapa pak Kharisma?"
+            ],
+            "responses": [
+                "Sekretaris Program Studi S-1 Sistem Informasi adalah Bapak Kharisma, S.T., M.Cs."
+            ]
+        },
+        {
+            "tag": "ketua_prodi_teknologi_informasi",
+            "patterns": [
+                "Siapa Ketua Program Studi S-1 Teknologi Informasi?",
+                "Siapa Ketua Prodi Teknologi Informasi?",
+                "Nama Ketua Program Studi Teknologi Informasi",
+                "Ketua Prodi Teknologi Informasi Fakultas",
+                "Siapa Pak Rama?"
+            ],
+            "responses": [
+                "Ketua Program Studi S-1 Teknologi Informasi adalah Bapak Rama Sahtyawan, S.T., M.Cs."
+            ]
+        },
+        {
+            "tag": "sekretaris_prodi_teknologi_informasi",
+            "patterns": [
+                "Siapa Sekretaris Program Studi S-1 Teknologi Informasi?",
+                "Siapa Sekretaris Prodi Teknologi Informasi?",
+                "Nama Sekretaris Program Studi Teknologi Informasi",
+                "Sekretaris Prodi Teknologi Informasi Fakultas",
+                "Siapa Pak Dedy?"
+            ],
+            "responses": [
+                "Sekretaris Program Studi S-1 Teknologi Informasi adalah Bapak Dedy Hariyadi, S.T., M.Kom."
+            ]
+        },
+        {
+            "tag": "ketua_prodi_teknik_industri",
+            "patterns": [
+                "Siapa Ketua Program Studi S-1 Teknik Industri?",
+                "Siapa Ketua Prodi Teknik Industri?",
+                "Nama Ketua Program Studi Teknik Industri",
+                "Ketua Prodi Teknik Industri Fakultas",
+                "Siapa Pak Ibnu?"
+            ],
+            "responses": [
+                "Ketua Program Studi S-1 Teknik Industri adalah Bapak Ibnu Abdul Rosyid, S.T., M.Sc."
+            ]
+        },
+        {
+            "tag": "sekretaris_prodi_teknik_industri",
+            "patterns": [
+                "Siapa Sekretaris Program Studi S-1 Teknik Industri?",
+                "Siapa Sekretaris Prodi Teknik Industri?",
+                "Nama Sekretaris Program Studi Teknik Industri",
+                "Sekretaris Prodi Teknik Industri Fakultas",
+                "Siapa Bu Cici?"
+            ],
+            "responses": [
+                "Sekretaris Program Studi S-1 Teknik Industri adalah Ibu Cici Finansia, S.T., M.Sc."
+            ]
+        },
+        {
+            "tag": "kepala_bagian_administrasi_akademik",
+            "patterns": [
+                "Siapa Kepala Bagian Administrasi Akademik?",
+                "Siapa Kepala Bagian Administrasi Akademik Fakultas?",
+                "Nama Kepala Bagian Administrasi Akademik",
+                "Kepala Administrasi Akademik Fakultas",
+                "Siapa Pak Ismanto?"
+            ],
+            "responses": [
+                "Kepala Bagian Administrasi Akademik adalah Bapak Ismanto, A.Md."
+            ]
+        },
+        {
+            "tag": "kepala_urusan_kemahasiswaan",
+            "patterns": [
+                "Siapa Kepala Urusan Kemahasiswaan?",
+                "Siapa Kepala Urusan Kemahasiswaan, Alumni, dan Pusat Karir?",
+                "Nama Kepala Urusan Kemahasiswaan",
+                "Kepala Urusan Kemahasiswaan Fakultas",
+                "Siapa Pak Anton?",
+                "Siapa yang menjabat sebagai Kepala Urusan Kemahasiswaan?",
+                "Siapa yang bertanggung jawab atas urusan kemahasiswaan?",
+                "Siapa yang mengurus kemahasiswaan?",
+                "Siapa yang menangani urusan kemahasiswaan, alumni, dan karir?",
+                "Siapa yang menjadi Kepala Urusan Kemahasiswaan saat ini?",
+                "Siapa yang bertugas sebagai Kepala Urusan Kemahasiswaan?",
+                "Kepala Urusan Kemahasiswaan sekarang siapa?",
+                "Bapak Anton itu siapa?",
+                "Pak Anton jabatannya apa?",
+                "Siapa yang menjadi kepala urusan kemahasiswaan di fakultas?",
+                "Siapa Kepala Urusan Kemahasiswaan di fakultas ini?"
+            ],
+            "responses": [
+                "Kepala Urusan Kemahasiswaan, Alumni, dan Pusat Karir adalah Bapak Anton Basuki, S.E."
+            ]
+        },
+        {
+            "tag": "kepala_bagian_umum_keuangan",
+            "patterns": [
+                "Siapa Kepala Bagian Umum & Keuangan?",
+                "Siapa Kepala Bagian Umum dan Keuangan Fakultas?",
+                "Nama Kepala Bagian Umum & Keuangan",
+                "Kepala Umum & Keuangan Fakultas"
+            ],
+            "responses": [
+                "Kepala Bagian Umum & Keuangan adalah Ibu Riyatiningsih, S.Kom."
+            ]
+        },
+        {
+            "tag": "kepala_urusan_keuangan",
+            "patterns": [
+                "Siapa Kepala Urusan Keuangan?",
+                "Siapa Kepala Urusan Keuangan Fakultas?",
+                "Nama Kepala Urusan Keuangan",
+                "Kepala Urusan Keuangan Fakultas"
+            ],
+            "responses": [
+                "Kepala Urusan Keuangan adalah Ibu Ika Budi Wahyuningtyas, S.E."
+            ]
+        },
+        {
+            "tag": "surat_rekomendasi",
+            "patterns": [
+                "Bagaimana cara mendapatkan surat rekomendasi untuk MBKM?",
+                "Surat rekomendasi untuk MBKM",
+                "Cara memperoleh surat rekomendasi MBKM",
+                "Proses mendapatkan surat rekomendasi MBKM",
+                "Langkah-langkah mendapatkan surat rekomendasi untuk MBKM",
+                "Bagaimana prosedur memperoleh surat rekomendasi MBKM?",
+                "Surat rekomendasi MBKM bagaimana cara mendapatkannya?",
+                "Apa yang harus dilakukan untuk mendapatkan surat rekomendasi MBKM?",
+                "Siapa yang bisa memberikan surat rekomendasi MBKM?",
+                "Langkah untuk mendapatkan surat rekomendasi MBKM"
+            ],
+            "responses": [
+                "Untuk mendapatkan surat rekomendasi untuk MBKM, mahasiswa perlu:\n1. Menghubungi DPA dan memaparkan proposal rencana studi mengikuti program kepada DPA\n2. DPA memberikan surat rekomendasi kepada Ketua Prodi\n3. Program studi bersama dengan GMB menentukan rancangan rekognisi yang kemudian disahkan oleh Wadek 1 (untuk skema Kemdikbud Ristek) atau Kepala BPP (untuk skema mandiri)\n4. BPP memproses surat rekomendasi\n5. Surat rekomendasi ditandatangani oleh Wakil Rektor 1 (untuk skema Kemdikbud Ristek) atau Kepala BPP (untuk skema mandiri)\n6. Mahasiswa mendapatkan surat rekomendasi"
+            ]
+        },
+        {
+            "tag": "ketentuan_rekognisi",
+            "patterns": [
+                "Bagaimana ketentuan rekognisi SKS untuk program MBKM?",
+                "Rekognisi SKS dalam program MBKM",
+                "Pengakuan SKS MBKM",
+                "Apa saja ketentuan rekognisi SKS untuk MBKM?",
+                "Ketentuan pengakuan SKS dalam program MBKM",
+                "Konversi SKS MBKM",
+                "Berapa SKS yang bisa diakui dari program MBKM?",
+                "Ketentuan rekognisi SKS MBKM",
+                "Berapa SKS yang dapat dikonversi dari program MBKM?",
+                "Proses rekognisi SKS MBKM"
+            ],
+            "responses": [
+                "Program MBKM, baik magang maupun studi independen, dapat diakui setara dengan 20 SKS. Bentuk konversi ini diharapkan sesuai dengan structured form di mana 20 SKS program MBKM dapat dikonversi ke dalam mata kuliah prodi. Beberapa capaian kompetensi yang tidak dapat dikonversi ke dalam MK prodi, dapat dikonversi ke dalam MK kelompok pengayaan. Kompetensi yang belum dikonversi ke dalam MK, bisa dimasukkan ke dalam SKPI. Selain itu, biaya rekognisi dikenakan sebesar Rp. 250.000."
+            ]
+        },
+        {
+            "tag": "program_kampus_merdeka_detail",
+            "patterns": [
+                "Program Kampus Merdeka Kemendikbud",
+                "Program Kampus Merdeka Kemensos",
+                "Program Kampus Merdeka BUMN"
+            ],
+            "responses": [
+                "Yuk, pilih program di bawah ini: Studi Independen, Magang, Kampus Mengajar, IISMA, Pertukaran Mahasiswa Merdeka, Pejuang Muda, Magang Mandiri, Wirausaha Merdeka."
+            ]
+        },
+        {
+            "tag": "penjelasan_studi_independen",
+            "patterns": [
+                "Apa itu studi independen?",
+                "Apa yang dimaksud dengan studi independen?",
+                "Jelaskan tentang studi independen",
+                "Bisa dijelaskan apa itu studi independen?",
+                "Studi independen itu apa?",
+                "Apa arti dari studi independen?",
+                "Apa definisi dari studi independen?"
+            ],
+            "responses": [
+                "Studi Independen adalah program yang memberikan kesempatan kepada mahasiswa untuk mempelajari kompetensi yang spesifik dan praktis langsung dari para pakarnya selama 1 (satu) semester melalui aktivitas pembelajaran dan praktik langsung"
+            ]
+        },
+        {
+            "tag": "periode_dan_pendaftaran_studi_independen",
+            "patterns": [
+                "Bagaimana periode pelaksanaan dan cara mendaftar program Studi Independen?",
+                "Kapan periode pelaksanaan program Studi Independen?",
+                "Bagaimana cara mendaftar program Studi Independen?",
+                "Apa syarat untuk mendaftar program Studi Independen?",
+                "Di mana saya bisa mendaftar program Studi Independen?",
+                "Berapa lama durasi program Studi Independen?",
+                "Periode pelaksanaan program Studi Independen berapa lama?",
+                "Cara mendaftar program Studi Independen di mana?",
+                "Bagaimana langkah-langkah pendaftaran untuk program Studi Independen?",
+                "Kapan pendaftaran program Studi Independen dibuka?",
+                "Apa saja dokumen yang dibutuhkan untuk mendaftar program Studi Independen?",
+                "Di mana saya bisa mendapatkan informasi lebih lanjut tentang pendaftaran Studi Independen?",
+                "Kapan mulai dan berakhirnya program Studi Independen?",
+                "Bagaimana tahapan pendaftaran program Studi Independen?",
+                "Di mana saya bisa melihat jadwal program Studi Independen?"
+            ],
+            "responses": [
+                "Program berlangsung selama 1 hingga 2 semester. Cara mendaftarnya dengan mengunjungi laman https://kampusmerdeka.kemdikbud.go.id/program/studi-independen"
+            ]
+        },
+        {
+            "tag": "manfaat_studi_independen",
+            "patterns": [
+                "Apa saja manfaat apabila mengikuti Studi Independen?",
+                "Apa manfaat mengikuti Studi Independen?",
+                "Mengapa saya harus ikut Studi Independen?",
+                "Apa keuntungan dari Studi Independen?",
+                "Manfaat apa yang didapat dari Studi Independen?",
+                "Mengikuti Studi Independen dapat manfaat apa saja?",
+                "Keuntungan mengikuti Studi Independen apa saja?"
+            ],
+            "responses": [
+                "Manfaat yang didapatkan, yaitu konversi hingga 20 SKS, dapat melakukan program sertifikasi yang diakui Kemendikbudristek selama 1-2 semester, biaya partisipasi serta biaya hidup, dan sertifikat sertifikasi atau short course"
+            ]
+        },
+        {
+            "tag": "ketentuan_studi_independen",
+            "patterns": [
+                "Apa saja ketentuan Studi Independen?",
+                "Apa ketentuan Studi Independen?",
+                "Bagaimana ketentuan Studi Independen?",
+                "Syarat apa yang harus dipenuhi untuk Studi Independen?",
+                "Ketentuan apa yang ada dalam Studi Independen?",
+                "Apa aturan dalam Studi Independen?",
+                "Ketentuan Studi Independen seperti apa?"
+            ],
+            "responses": [
+                "Mahasiswa wajib mengumpulkan Laporan Bulanan dan Laporan Akhir. Melengkapi dokumen serta membutuhkan rekomendasi dari perguruan tinggi melalui platform kampus merdeka."
+            ]
+        },
+        {
+            "tag": "mitra_studi_independen",
+            "patterns": [
+                "Apa saja mitra yang tergabung dalam Studi Independen?",
+                "Siapa mitra Studi Independen?",
+                "Mitra dalam Studi Independen siapa saja?",
+                "Partner program Studi Independen apa saja?",
+                "Dengan siapa saja kerjasama dalam Studi Independen?",
+                "Perusahaan apa saja yang terlibat dalam Studi Independen?",
+                "Lembaga mitra Studi Independen siapa saja?"
+            ],
+            "responses": [
+                "Mitra yang tergabung seperti Orbit Future Academy, Microsoft Indonesia, Ruang Guru, Zenius, dan masih banyak lagi. Info lebih lanjut melalui laman https://kampusmerdeka.kemdikbud.go.id/program/studi-independen/browse"
+            ]
+        },
+        {
+            "tag": "penjelasan_magang",
+            "patterns": [
+                "Apa itu Magang Bersertifikat?",
+                "Jelaskan tentang Magang Bersertifikat",
+                "Magang Bersertifikat itu apa?",
+                "Bisa dijelaskan apa itu Magang Bersertifikat?",
+                "Apa yang dimaksud dengan Magang Bersertifikat?",
+                "Apa arti dari Magang Bersertifikat?",
+                "Apa definisi dari Magang Bersertifikat?"
+            ],
+            "responses": [
+                "Salah satu program Kampus Merdeka Kemendikbud yang bertujuan untuk memberikan kesempatan kepada mahasiswa mendapatkan pengalaman kerja di industri/dunia profesi nyata untuk mendapatkan hard skills maupun soft skills."
+            ]
+        },
+        {
+            "tag": "periode_dan_pendaftaran_magang",
+            "patterns": [
+                "Bagaimana periode pelaksanaan dan cara mendaftar program Magang Bersertifikat?",
+                "Kapan periode pelaksanaan program Magang Bersertifikat?",
+                "Bagaimana cara mendaftar program Magang Bersertifikat?",
+                "Apa syarat untuk mendaftar program Magang Bersertifikat?",
+                "Di mana saya bisa mendaftar program Magang Bersertifikat?",
+                "Berapa lama durasi program Magang Bersertifikat?",
+                "Periode pelaksanaan program Magang Bersertifikat berapa lama?",
+                "Cara mendaftar program Magang Bersertifikat di mana?",
+                "Bagaimana langkah-langkah pendaftaran untuk program Magang Bersertifikat?",
+                "Kapan pendaftaran program Magang Bersertifikat dibuka?",
+                "Apa saja dokumen yang dibutuhkan untuk mendaftar program Magang Bersertifikat?",
+                "Di mana saya bisa mendapatkan informasi lebih lanjut tentang pendaftaran Magang Bersertifikat?",
+                "Kapan mulai dan berakhirnya program Magang Bersertifikat?",
+                "Bagaimana tahapan pendaftaran program Magang Bersertifikat?",
+                "Di mana saya bisa melihat jadwal program Magang Bersertifikat?"
+            ],
+            "responses": [
+                "Program berlangsung selama 1 hingga 3 semester. Cara mendaftarnya dengan mengunjungi laman https://kampusmerdeka.kemdikbud.go.id/program/magang"
+            ]
+        },
+        {
+            "tag": "mitra_magang_msib",
+            "patterns": [
+                "Apa saja mitra yang tergabung dalam Magang Bersertifikat?",
+                "Siapa mitra Magang Bersertifikat?",
+                "Mitra dalam Magang Bersertifikat siapa saja?",
+                "Partner program Magang Bersertifikat apa saja?",
+                "Dengan siapa saja kerjasama dalam Magang Bersertifikat?",
+                "Perusahaan apa saja yang terlibat dalam Magang Bersertifikat?",
+                "Lembaga mitra Magang Bersertifikat siapa saja?",
+                "Mitra apa saja dalam Magang Bersertifikat?",
+                "Siapa saja yang bekerja sama dalam program Magang Bersertifikat?",
+                "Organisasi mana saja yang menjadi mitra Magang Bersertifikat?",
+                "Perusahaan apa saja yang bermitra dalam Magang Bersertifikat?",
+                "Mitra perusahaan dalam Magang Bersertifikat siapa saja?",
+                "Mitra industri di program Magang Bersertifikat apa saja?"
+            ],
+            "responses": [
+                "Mitra yang tergabung seperti Telkom Indonesia, XL Axiata, MAP, Bank BRI, Shopee, Tokopedia, Traveloka, dsb. Info lebih lanjut melalui laman https://kampusmerdeka.kemdikbud.go.id/program/magang/browse"
+            ]
+        },
+        {
+            "tag": "penjelasan_kampus_mengajar",
+            "patterns": [
+                "Apa itu Kampus Mengajar?",
+                "Ceritakan tentang program Kampus Mengajar",
+                "Apa yang dimaksud dengan Kampus Mengajar?",
+                "Bisakah Anda menjelaskan Kampus Mengajar?",
+                "Saya ingin tahu lebih banyak tentang Kampus Mengajar",
+                "Apa tujuan dari program Kampus Mengajar?",
+                "Bagaimana Kampus Mengajar bekerja?",
+                "Siapa yang dapat berpartisipasi dalam Kampus Mengajar?",
+                "Apa manfaat bergabung dengan Kampus Mengajar?",
+                "Dimana program Kampus Mengajar dilaksanakan?",
+                "Apa saja kegiatan dalam Kampus Mengajar?",
+                "Bagaimana cara mendaftar di program Kampus Mengajar?",
+                "Berapa lama durasi program Kampus Mengajar?",
+                "Apa saja syarat untuk ikut serta dalam Kampus Mengajar?",
+                "Kapan program Kampus Mengajar dimulai?",
+                "Apa yang dilakukan mahasiswa dalam Kampus Mengajar?",
+                "Bagaimana program Kampus Mengajar membantu sekolah?",
+                "Apa yang membuat Kampus Mengajar penting?",
+                "Apakah Kampus Mengajar hanya untuk mahasiswa?"
+            ],
+            "responses": [
+                "Salah satu program Kampus Merdeka Kemendikbud berbentuk kegiatan pembelajaran oleh mahasiswa yang memiliki minat dalam memperdalam ilmunya serta membantu meningkatkan pemerataan kualitas pendidikan. Sekolah tempat praktek mengajar dapat berada di lokasi kota maupun di daerah terpencil"
+            ]
+        },
+        {
+            "tag": "persyaratan_kampus_mengajar",
+            "patterns": [
+                "Apa saja persyaratan Kampus Mengajar?",
+                "Syarat untuk mengikuti Kampus Mengajar?",
+                "Apa saja yang dibutuhkan untuk mendaftar Kampus Mengajar?",
+                "Kampus Mengajar persyaratannya apa saja?",
+                "Bagaimana persyaratan untuk program Kampus Mengajar?",
+                "Persyaratan untuk ikut Kampus Mengajar?",
+                "Apa persyaratan untuk Kampus Mengajar?",
+                "Syarat-syarat Kampus Mengajar apa saja?",
+                "Dokumen apa saja yang diperlukan untuk Kampus Mengajar?",
+                "Apakah saya memenuhi syarat untuk Kampus Mengajar?"
+            ],
+            "responses": [
+                "Merupakan mahasiswa aktif semester 4, memiliki IPK minimum 3.00, memiliki pengalaman mengajar maupun berorganisasi, memperoleh surat rekomendasi dari Perguruan tinggi, serta belum pernah mengikuti program Kampus Mengajar"
+            ]
+        },
+        {
+            "tag": "periode_dan_pendaftaran_kampus_mengajar",
+            "patterns": [
+                "Bagaimana periode pelaksanaan dan cara mendaftar program Kampus Mengajar?",
+                "Kapan periode pelaksanaan Kampus Mengajar?",
+                "Bagaimana cara mendaftar untuk program Kampus Mengajar?",
+                "Periode dan pendaftaran Kampus Mengajar bagaimana?",
+                "Cara pendaftaran Kampus Mengajar?",
+                "Kapan dimulai Kampus Mengajar?",
+                "Bagaimana proses pendaftaran Kampus Mengajar?",
+                "Kapan berlangsung Kampus Mengajar?",
+                "Dimana saya bisa mendaftar untuk Kampus Mengajar?",
+                "Berapa lama durasi program Kampus Mengajar?",
+                "Kampus Mengajar dimulai kapan?",
+                "Langkah-langkah mendaftar Kampus Mengajar?",
+                "Apakah ada informasi tentang pendaftaran Kampus Mengajar?",
+                "Kapan saya bisa mendaftar untuk Kampus Mengajar?"
+            ],
+            "responses": [
+                "Program berlangsung selama 1 semester. Cara mendaftarnya dengan mengunjungi laman https://kampusmerdeka.kemdikbud.go.id/program/mengajar"
+            ]
+        },
+        {
+            "tag": "manfaat_kampus_mengajar",
+            "patterns": [
+                "Apa saja manfaat apabila mengikuti Kampus Mengajar?",
+                "Apa keuntungan dari ikut Kampus Mengajar?",
+                "Manfaat mengikuti Kampus Mengajar apa saja?",
+                "Apa manfaatnya kalau ikut Kampus Mengajar?",
+                "Kampus Mengajar memberikan manfaat apa?",
+                "Apa saja keuntungan dari program Kampus Mengajar?",
+                "Kenapa saya harus ikut Kampus Mengajar?",
+                "Apa yang akan saya dapatkan dari Kampus Mengajar?",
+                "Apa saja yang diperoleh dari Kampus Mengajar?",
+                "Mengapa ikut Kampus Mengajar?",
+                "Manfaat yang didapatkan dari Kampus Mengajar?",
+                "Kampus Mengajar bermanfaat untuk apa?"
+            ],
+            "responses": [
+                "Manfaat yang didapatkan, yaitu mendapatkan bantuan biaya hidup serta UKT (bagi yang tidak sedang menerima bantuan pemerintah lainnya), mengasah kepemimpinan, kreativitas, pemecahan masalah, inovasi, serta terlibat langsung dalam pembelajaran di jenjang SD dan SMP"
+            ]
+        },
+        {
+            "tag": "penjelasan_IISMA",
+            "patterns": [
+                "Apa itu IISMA?",
+                "Apa yang dimaksud dengan IISMA?",
+                "Penjelasan tentang IISMA?",
+                "Apa kepanjangan dari IISMA?",
+                "IISMA itu apa?",
+                "Apa saja yang termasuk dalam program IISMA?",
+                "Bisa jelaskan tentang IISMA?",
+                "Apa definisi dari IISMA?",
+                "Apa arti dari IISMA?",
+                "Apa program IISMA?"
+            ],
+            "responses": [
+                "IISMA adalah singkatan dari Indonesian International Student Mobility Awards. Salah satu program Kampus Merdeka Kemendikbud berupa skema beasiswa dari Pemerintah Indonesia untuk mendanai siswa dalam program mobilitas ke universitas terkemuka di luar negeri"
+            ]
+        },
+        {
+            "tag": "persyaratan_IISMA",
+            "patterns": [
+                "Apa saja persyaratan IISMA?",
+                "Syarat untuk mengikuti IISMA?",
+                "Apa persyaratan untuk IISMA?",
+                "Bagaimana persyaratan IISMA?",
+                "Persyaratan untuk ikut IISMA?",
+                "Apa yang dibutuhkan untuk mendaftar IISMA?",
+                "Apa syarat untuk program IISMA?",
+                "Apa kriteria untuk IISMA?",
+                "Dokumen apa saja yang diperlukan untuk IISMA?",
+                "Apa saja syarat yang harus dipenuhi untuk IISMA?"
+            ],
+            "responses": [
+                "Merupakan mahasiswa aktif semester 4 hingga 6, maksimal berumur 23 tahun, memiliki IPK minimal 3.00, memiliki score IELTS - 6.0, TOEFL iBT - 78, Duolingo English Test - 100, mendapatkan surat rekomendasi Perguruan Tinggi, serta belum pernah mengikuti program IISMA maupun beasiswa LPDP"
+            ]
+        },
+        {
+            "tag": "periode_dan_pendaftaran_IISMA",
+            "patterns": [
+                "Bagaimana periode pelaksanaan dan cara mendaftar program IISMA?",
+                "Kapan periode pelaksanaan IISMA?",
+                "Bagaimana cara mendaftar IISMA?",
+                "Apa saja langkah untuk mendaftar IISMA?",
+                "Kapan program IISMA dilaksanakan?",
+                "Cara mendaftar IISMA bagaimana?",
+                "Bagaimana cara ikut serta dalam IISMA?",
+                "Berapa lama durasi program IISMA?",
+                "Bagaimana pendaftaran program IISMA?",
+                "Kapan pelaksanaan program IISMA?",
+                "Apa periode pelaksanaan IISMA?",
+                "Langkah-langkah mendaftar program IISMA?",
+                "Dimana saya bisa mendaftar IISMA?"
+            ],
+            "responses": [
+                "Program berlangsung selama 1 semester. Cara mendaftarnya dengan mengunjungi laman https://kampusmerdeka.kemdikbud.go.id/km/IISMA/landing.html"
+            ]
+        },
+        {
+            "tag": "manfaat_IISMA",
+            "patterns": [
+                "Apa saja manfaat apabila mengikuti IISMA?",
+                "Apa manfaat ikut IISMA?",
+                "Keuntungan mengikuti IISMA apa saja?",
+                "Apa keuntungan ikut IISMA?",
+                "Apa manfaat dari program IISMA?",
+                "Kenapa harus ikut IISMA?",
+                "Apa saja benefit mengikuti IISMA?",
+                "Manfaat ikut program IISMA?",
+                "Apa keuntungan ikut program IISMA?",
+                "Apa manfaat ikut program IISMA?",
+                "Mengapa ikut IISMA?",
+                "Apa yang didapatkan dari IISMA?",
+                "Apa yang diperoleh dari ikut IISMA?",
+                "Apa saja yang diperoleh dari IISMA?"
+            ],
+            "responses": [
+                "Manfaat yang didapatkan, yaitu konversi SKS hingga 20 sks, networking, bantuan biaya pendaftaran, pendidikan, serta biaya hidup selama 1 semester, test PCR, karantina, visa, transport, dan asuransi kesehatan"
+            ]
+        },
+        {
+            "tag": "mitra_IISMA",
+            "patterns": [
+                "Apa saja universitas yang tergabung dalam program IISMA?",
+                "Universitas mana saja yang bekerja sama dengan IISMA?",
+                "Mitra universitas IISMA apa saja?",
+                "Universitas mana saja yang ikut program IISMA?",
+                "Apa saja kampus yang tergabung dalam IISMA?",
+                "Universitas mana saja yang menjadi mitra IISMA?",
+                "Kampus mana yang berpartisipasi dalam IISMA?",
+                "Bisa sebutkan universitas mitra IISMA?",
+                "Apa daftar universitas yang terlibat dalam IISMA?",
+                "Mana saja universitas yang ikut IISMA?"
+            ],
+            "responses": [
+                "Universitas yang tergabung seperti Boston University, Monash University, Nanyang University, University of Birmingham, dsb. Info lebih lanjut melalui laman https://site.iisma.id/host-universities-list"
+            ]
+        },
+        {
+            "tag": "penjelasan_pertukaran_mahasiswa",
+            "patterns": [
+                "Apa itu Pertukaran Mahasiswa Merdeka?",
+                "Penjelasan tentang Pertukaran Mahasiswa Merdeka?",
+                "Apa yang dimaksud dengan Pertukaran Mahasiswa Merdeka?",
+                "Pertukaran Mahasiswa Merdeka itu apa?",
+                "Bisa jelaskan tentang Pertukaran Mahasiswa Merdeka?",
+                "Apa definisi dari Pertukaran Mahasiswa Merdeka?",
+                "Apa arti dari Pertukaran Mahasiswa Merdeka?",
+                "Apa program Pertukaran Mahasiswa Merdeka?",
+                "Apa tujuan dari Pertukaran Mahasiswa Merdeka?",
+                "Bagaimana Pertukaran Mahasiswa Merdeka?"
+            ],
+            "responses": [
+                "Pertukaran Mahasiswa Merdeka merupakan pertukaran pelajar dengan program studi yang sama ke Perguruan Tinggi berbeda maupun pertukaran pelajar dengan program studi berbeda ke Perguruan Tinggi berbeda. Kegiatan pembelajaran dapat secara tatap muka atau daring. Program ini bertujuan untuk memperkaya pengalaman dan konteks keilmuan mahasiswa"
+            ]
+        },
+        {
+            "tag": "persyaratan_pertukaran_mahasiswa",
+            "patterns": [
+                "Apa saja persyaratan Pertukaran Mahasiswa Merdeka?",
+                "Syarat untuk mengikuti Pertukaran Mahasiswa Merdeka?",
+                "Apa persyaratan untuk Pertukaran Mahasiswa Merdeka?",
+                "Bagaimana persyaratan Pertukaran Mahasiswa Merdeka?",
+                "Persyaratan untuk ikut Pertukaran Mahasiswa Merdeka?",
+                "Apa yang dibutuhkan untuk mendaftar Pertukaran Mahasiswa Merdeka?",
+                "Apa syarat untuk program Pertukaran Mahasiswa Merdeka?",
+                "Apa kriteria untuk Pertukaran Mahasiswa Merdeka?",
+                "Dokumen apa saja yang diperlukan untuk Pertukaran Mahasiswa Merdeka?",
+                "Apa saja syarat yang harus dipenuhi untuk Pertukaran Mahasiswa Merdeka?"
+            ],
+            "responses": [
+                "Merupakan mahasiswa aktif semester 3, 5, dan 7, memiliki IPK minimal 2.75, memiliki pengalaman prestasi non-akademik tingkat daerah/nasional/internasional, tidak pernah dikenakan sanksi akademik maupun non-akademik, serta mendapatkan surat rekomendasi dari Perguruan Tinggi dan izin orang tua"
+            ]
+        },
+        {
+            "tag": "periode_dan_pendaftaran_pertukaran_mahasiswa",
+            "patterns": [
+                "Bagaimana periode pelaksanaan dan cara mendaftar program Pertukaran Mahasiswa Merdeka?",
+                "Kapan program Pertukaran Mahasiswa Merdeka dilaksanakan?",
+                "Bagaimana cara mendaftar untuk program Pertukaran Mahasiswa Merdeka?",
+                "Apa saja tahapan pendaftaran untuk program Pertukaran Mahasiswa Merdeka?",
+                "Berapa lama periode program Pertukaran Mahasiswa Merdeka?",
+                "Di mana saya bisa mendaftar untuk program Pertukaran Mahasiswa Merdeka?",
+                "Kapan pendaftaran program Pertukaran Mahasiswa Merdeka dibuka?",
+                "Apa saja persyaratan untuk mendaftar program Pertukaran Mahasiswa Merdeka?",
+                "Apakah ada biaya untuk mendaftar program Pertukaran Mahasiswa Merdeka?",
+                "Bagaimana proses seleksi untuk program Pertukaran Mahasiswa Merdeka?",
+                "Berapa lama durasi program Pertukaran Mahasiswa Merdeka berlangsung?",
+                "Dimana saya dapat menemukan informasi lebih lanjut tentang pendaftaran program Pertukaran Mahasiswa Merdeka?",
+                "Apakah program Pertukaran Mahasiswa Merdeka berlangsung setiap semester?",
+                "Apa langkah-langkah untuk mendaftar di program Pertukaran Mahasiswa Merdeka?",
+                "Siapa yang berhak mendaftar untuk program Pertukaran Mahasiswa Merdeka?"
+            ],
+            "responses": [
+                "Program berlangsung selama 1 semester. Cara mendaftarnya dengan mengunjungi laman https://kampusmerdeka.kemdikbud.go.id/web/pertukaranMahasiswaMerdeka2021"
+            ]
+        },
+        {
+            "tag": "manfaat_pertukaran_mahasiswa",
+            "patterns": [
+                "Bagaimana periode pelaksanaan dan cara mendaftar program Pertukaran Mahasiswa Merdeka?",
+                "Kapan periode pelaksanaan Pertukaran Mahasiswa Merdeka?",
+                "Bagaimana cara mendaftar untuk program Pertukaran Mahasiswa Merdeka?",
+                "Periode dan pendaftaran Pertukaran Mahasiswa Merdeka bagaimana?",
+                "Cara pendaftaran Pertukaran Mahasiswa Merdeka?",
+                "Kapan dimulai Pertukaran Mahasiswa Merdeka?",
+                "Bagaimana proses pendaftaran Pertukaran Mahasiswa Merdeka?",
+                "Kapan berlangsung Pertukaran Mahasiswa Merdeka?",
+                "Dimana saya bisa mendaftar untuk Pertukaran Mahasiswa Merdeka?",
+                "Berapa lama durasi program Pertukaran Mahasiswa Merdeka?",
+                "Pertukaran Mahasiswa Merdeka dimulai kapan?",
+                "Langkah-langkah mendaftar Pertukaran Mahasiswa Merdeka?",
+                "Apakah ada informasi tentang pendaftaran Pertukaran Mahasiswa Merdeka?",
+                "Kapan saya bisa mendaftar untuk Pertukaran Mahasiswa Merdeka?"
+            ],
+            "responses": [
+                "Manfaat yang didapatkan, yaitu konversi SKS hingga 20 sks, networking, bantuan biaya hidup dan UKT, transport pulang-pergi ke kampus tujuan, dan biaya rapid pulang-pergi"
+            ]
+        },
+        {
+            "tag": "penjelasan_PMMB",
+            "patterns": [
+                "Apa itu PMMB?",
+                "Apa yang dimaksud dengan PMMB?",
+                "Penjelasan PMMB apa?",
+                "PMMB itu apa?",
+                "Apa kepanjangan dari PMMB?",
+                "Program PMMB itu apa?",
+                "Bisa jelaskan tentang PMMB?",
+                "PMMB singkatan dari apa?",
+                "PMMB adalah apa?",
+                "Apa arti PMMB?",
+                "Apa maksud dari PMMB?"
+            ],
+            "responses": [
+                "PMMB adalah singkatan dari Program Magang Mahasiswa Bersertifikat. PMMB adalah program dari FHCI yang bekerja sama dengan BUMN yang memberi kesempatan kepada mahasiswa untuk menyalurkan potensi dan menggali pengalaman di BUMN"
+            ]
+        },
+        {
+            "tag": "persyaratan_IISMA",
+            "patterns": [
+                "Apa saja persyaratan IISMA?",
+                "Syarat untuk mengikuti IISMA?",
+                "Apa persyaratan untuk IISMA?",
+                "Bagaimana persyaratan IISMA?",
+                "Persyaratan untuk ikut IISMA?",
+                "Apa yang dibutuhkan untuk mendaftar IISMA?",
+                "Apa syarat untuk program IISMA?",
+                "Apa kriteria untuk IISMA?",
+                "Dokumen apa saja yang diperlukan untuk IISMA?",
+                "Apa saja syarat yang harus dipenuhi untuk IISMA?",
+                "Bagaimana cara memenuhi persyaratan IISMA?",
+                "Apa saja yang dibutuhkan untuk mengikuti program IISMA?"
+            ],
+            "responses": [
+                "Merupakan mahasiswa aktif semester 5, memiliki IPK minimal 2.75, mendapatkan izin dari dosen wali dan kaprodi, bersedia ditempatkan di perusahaan yang sudah terdaftar di FHCI"
+            ]
+        },
+        {
+            "tag": "periode_dan_pendaftaran_PMMB",
+            "patterns": [
+                "Bagaimana periode pelaksanaan dan cara mendaftar program PMMB?",
+                "Kapan periode pelaksanaan PMMB?",
+                "Bagaimana cara mendaftar untuk program PMMB?",
+                "Periode dan pendaftaran PMMB bagaimana?",
+                "Cara pendaftaran PMMB?",
+                "Kapan dimulai PMMB?",
+                "Bagaimana proses pendaftaran PMMB?",
+                "Kapan berlangsung PMMB?",
+                "Dimana saya bisa mendaftar untuk PMMB?",
+                "Berapa lama durasi program PMMB?",
+                "PMMB dimulai kapan?",
+                "Langkah-langkah mendaftar PMMB?",
+                "Apakah ada informasi tentang pendaftaran PMMB?",
+                "Kapan saya bisa mendaftar untuk PMMB?"
+            ],
+            "responses": [
+                "Program berlangsung selama 1 semester. Cara mendaftarnya dengan mengunjungi website FHCI BUMN atau instagram @fhci.bumn"
+            ]
+        },
+        {
+            "tag": "manfaat_PMMB",
+            "patterns": [
+                "Apa saja manfaat apabila mengikuti PMMB?",
+                "Apa manfaat ikut PMMB?",
+                "Keuntungan mengikuti PMMB apa saja?",
+                "Apa keuntungan ikut PMMB?",
+                "Apa manfaat dari program PMMB?",
+                "Kenapa harus ikut PMMB?",
+                "Apa saja benefit mengikuti PMMB?",
+                "Manfaat ikut program PMMB?",
+                "Apa keuntungan ikut program PMMB?",
+                "Apa manfaat ikut program PMMB?",
+                "Mengapa ikut PMMB?",
+                "Apa yang didapatkan dari PMMB?",
+                "Apa yang diperoleh dari ikut PMMB?",
+                "Apa saja yang diperoleh dari PMMB?"
+            ],
+            "responses": [
+                "Manfaat yang didapatkan, yaitu konversi SKS hingga 20 sks, networking, mendapatkan sertifikat industri, mengenal dunia kerja, serta uang saku"
+            ]
+        },
+        {
+            "tag": "mitra_PMMB",
+            "patterns": [
+                "Apa saja universitas yang tergabung dalam program PMMB?",
+                "Universitas mana saja yang ikut PMMB?",
+                "Apa saja mitra dalam program PMMB?",
+                "Mitra apa saja yang terlibat dalam PMMB?",
+                "Universitas mana yang tergabung dalam PMMB?",
+                "Lembaga apa saja yang bermitra dengan PMMB?",
+                "Siapa saja mitra dalam program PMMB?",
+                "Mitra universitas di PMMB apa saja?",
+                "Perusahaan mana saja yang ikut program PMMB?",
+                "Mitra industri apa saja yang tergabung di PMMB?"
+            ],
+            "responses": [
+                "Mitra yang tergabung seperti Pertamina, Bank BRI, PT. KBN, dsb. Info lebih lanjut melalui website FHCI BUMN atau instagram @fhci.bumn"
+            ]
+        }
+    ]
+}
