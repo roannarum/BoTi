@@ -61,11 +61,77 @@
                 "Terima kasih yaaa",
                 "Sangat membantu Terima kasih",
                 "Makasih",
-                "Terimakasih banyak",
-                "terimakasih"
+                "Terimakasih banyak"
             ],
             "responses": [
                 "Semoga sukses selalu ya dan diberikan yang terbaik😆"
+            ]
+        },
+        {
+            "tag": "alamat",
+            "patterns": [
+                "dimana alamat fakultas teknik dan teknologi informasi?",
+                "Lokasi ftti dimana?",
+                "FTTI dimana letaknya?",
+                "Dimana tempat fakultas teknik dan teknologi informasi?",
+                "Fakultas teknik dan teknologi beralamat dimana"
+            ],
+            "responses": [
+                "Alamat Fakultas Teknik dan Teknologi Informasi adalah Jl. Siliwangi (Ringroad Barat) Banyuraden, Gamping 55293 Yogyakarta City Special Region of Yogyakarta.",
+                "akultas Teknik dan Teknologi Informasi berlokasi di Jl. Siliwangi (Ringroad Barat) Banyuraden, Gamping 55293 Yogyakarta City Special Region of Yogyakarta.",
+                "Anda bisa menemukan Fakultas Teknik dan Teknologi Informasi di Jl. Siliwangi (Ringroad Barat) Banyuraden, Gamping 55293 Yogyakarta City Special Region of Yogyakarta."
+            ]
+        },
+        {
+            "tag": "semester_perbaikan",
+            "patterns": [
+                "Apa itu semester tambahan?",
+                "Bagaimana cara mengikuti semester tambahan?",
+                "Apa saja ketentuan semester tambahan?",
+                "Kapan semester tambahan dilaksanakan?",
+                "Berapa SKS maksimal yang bisa diambil pada semester tambahan?",
+                "Apakah semester tambahan wajib diikuti?",
+                "Apakah semester tambahan dihitung sebagai masa studi?",
+                "Bagaimana penilaian di semester tambahan?",
+                "Mata kuliah apa saja yang bisa diambil di semester tambahan?",
+                "Berapa biaya untuk mengikuti semester tambahan?",
+                "Bagaimana prosedur pendaftaran semester tambahan?",
+                "Kapan jadwal perkuliahan semester tambahan dimulai?",
+                "Dimana jadwal kuliah semester tambahan akan diumumkan?",
+                "Apakah bisa membatalkan mata kuliah yang sudah diambil di semester tambahan?",
+                "Bagaimana cara pembayaran untuk semester tambahan?",
+                "Apa itu semester perbaikan?",
+                "Bagaimana cara mengikuti semester perbaikan?",
+                "Apa saja ketentuan semester perbaikan?",
+                "Kapan semester perbaikan dilaksanakan?",
+                "Berapa SKS maksimal yang bisa diambil pada semester perbaikan?",
+                "Apakah semester perbaikan wajib diikuti?",
+                "Apakah semester perbaikan dihitung sebagai masa studi?",
+                "Bagaimana penilaian di semester perbaikan?",
+                "Mata kuliah apa saja yang bisa diambil di semester perbaikan?",
+                "Berapa biaya untuk mengikuti semester perbaikan?",
+                "Bagaimana prosedur pendaftaran semester perbaikan?",
+                "Kapan jadwal perkuliahan semester perbaikan dimulai?",
+                "Dimana jadwal kuliah semester perbaikan akan diumumkan?",
+                "Apakah bisa membatalkan mata kuliah yang sudah diambil di semester perbaikan?",
+                "Bagaimana cara pembayaran untuk semester perbaikan?"
+            ],
+            "responses": [
+                "Semester tambahan atau semester perbaikan adalah kegiatan perkuliahan atau kegiatan belajar lain yang dilaksanakan dalam 4 kali pertemuan tatap muka dengan evaluasi diadakan sesuai jadwal yang ditentukan.",
+                "Untuk mengikuti semester tambahan atau semester perbaikan, mahasiswa harus mendaftar pada tanggal yang ditentukan dan membayar biaya sesuai jumlah SKS yang diambil.",
+                "Ketentuan semester tambahan atau semester perbaikan antara lain maksimal 12 SKS, tidak wajib diikuti, tidak dihitung sebagai masa studi, dan nilai akhir yang berlaku adalah nilai tertinggi antara semester reguler dan semester tambahan atau perbaikan.",
+                "Semester tambahan atau semester perbaikan dilaksanakan pada akhir semester Genap sebelum memasuki semester Ganjil.",
+                "Beban SKS maksimal yang bisa diambil pada semester tambahan atau semester perbaikan adalah 12 SKS, kecuali dengan rekomendasi dari Dosen Pembimbing Akademik.",
+                "Semester tambahan atau semester perbaikan tidak wajib diikuti oleh mahasiswa.",
+                "Semester tambahan atau semester perbaikan tidak dihitung sebagai masa studi.",
+                "Penilaian di semester tambahan atau semester perbaikan menggunakan nilai tertinggi antara nilai di semester reguler dan nilai di semester tambahan atau perbaikan.",
+                "Mata kuliah yang bisa diambil di semester tambahan atau semester perbaikan adalah mata kuliah yang pernah ditempuh pada semester sebelumnya, tidak boleh mengambil mata kuliah baru.",
+                "Biaya untuk mengikuti semester tambahan atau semester perbaikan adalah Rp. 110.000 per SKS.",
+                "Pendaftaran semester tambahan atau semester perbaikan dilakukan pada tanggal yang ditentukan, dan pembayaran dilakukan melalui rekening Bank BNI yang telah ditetapkan.",
+                "Perkuliahan semester tambahan atau semester perbaikan dimulai sesuai jadwal yang telah ditentukan.",
+                "Jadwal kuliah semester tambahan atau semester perbaikan akan diumumkan melalui laman web FTTI.",
+                "Mahasiswa tidak boleh membatalkan atau mengganti mata kuliah yang sudah diambil di semester tambahan atau semester perbaikan.",
+                "Pembayaran biaya semester tambahan atau semester perbaikan hanya melalui nomor rekening Bank BNI yang sah dan bukti pembayaran wajib diunggah di Pordik."
             ]
         },
         {
@@ -120,8 +186,10 @@
             "patterns": [
                 "Bagaimana cara mengajukan cuti kuliah?",
                 "Apa prosedur pengajuan cuti kuliah?",
-                "Langkah-langkah untuk mengajukan cuti kuliah",
-                "Bagaimana cara mengajukan cuti kuliah di Unjaya?",
+                "Tahapan untuk mengajukan cuti kuliah",
+                "Proses langkah demi langkah untuk mengajukan cuti kuliah",
+                "Bagaimana langkah-langkah mengajukan cuti kuliah di Unjaya",
+                "Apa prosedur untuk mengajukan cuti kuliah di Unjaya?",
                 "Apa saja persyaratan mengajukan cuti kuliah?",
                 "Di mana saya bisa mengajukan cuti kuliah?",
                 "Adakah formulir untuk pengajuan cuti kuliah?",
@@ -139,7 +207,13 @@
                 "Apa yang harus diisi untuk pengajuan cuti kuliah?",
                 "Informasi apa yang perlu diisi untuk cuti kuliah?",
                 "Apa yang perlu diisi saat mengajukan cuti kuliah?",
-                "Detail yang harus diisi untuk pengajuan cuti kuliah"
+                "ketika mengajukan cuti kuliah, apa yang harus diisi?",
+                "Detail yang harus diisi untuk pengajuan cuti kuliah",
+                "Dokumen apa yang diperlukan untuk cuti kuliah?",
+                "Persyaratan pengajuan cuti kuliah apa saja?",
+                "Apa yang diperlukan untuk mengajukan cuti kuliah?",
+                "Langkah-langkah apa yang harus diambil untuk cuti kuliah?",
+                "Bagaimana cara mengisi formulir cuti kuliah?"
             ],
             "responses": [
                 "Mahasiswa mengisi semester yang akan dipilih untuk cuti dan mengisi alasan dari pengajuan tersebut."
@@ -149,8 +223,8 @@
             "tag": "konfirmasi_cuti",
             "patterns": [
                 "Apa yang terjadi setelah mengisi formulir cuti kuliah?",
-                "Apa langkah-langkah setelah mengajukan cuti kuliah?",
-                "Apa yang harus dilakukan setelah mengajukan cuti kuliah?",
+                "Apa tahapan setelah mengajukan cuti kuliah?",
+                "Apa proses selanjutnya setelah mengajukan cuti kuliah?",
                 "Bagaimana proses setelah mengajukan cuti kuliah?",
                 "Siapa yang akan menghubungi setelah mengisi formulir cuti kuliah?",
                 "Apa tindak lanjut setelah pengajuan cuti kuliah?",
@@ -194,9 +268,9 @@
             "tag": "pembayaran_SPP",
             "patterns": [
                 "bagaimana prosedur pembayaran SPP?",
-                "Bagaimana cara membayar SPP?",
+                "Bagaimana metode untuk membayar SPP?",
                 "Gimana cara bayar SPP?",
-                "Apa langkah-langkah membayar SPP?",
+                "Langkah-langkah apa saja yang diperlukan untuk membayar SPP?",
                 "Dimana saya bisa membayar SPP?",
                 "Metode pembayaran SPP yang tersedia?",
                 "Prosedur pembayaran SPP online",
@@ -204,7 +278,7 @@
                 "Apakah saya bisa bayar SPP secara cicilan?",
                 "Bagaimana cara bayar SPP online?",
                 "Langkah-langkah pembayaran SPP apa saja?",
-                "Bagaimana cara melakukan pembayaran SPP?",
+                "Cara apa yang digunakan untuk melakukan pembayaran SPP?",
                 "Dimana tempat pembayaran SPP?",
                 "Cara bayar SPP lewat virtual account bagaimana?",
                 "Bagaimana cara bayar SPP di UNJAYA?"
@@ -235,21 +309,21 @@
         {
             "tag": "program_studi",
             "patterns": [
-                "Apa saja program studi di fakultas ini?",
+                "Program studi apa saja yang ada di fakultas ini?",
                 "Prodi di fakultas ini apa saja?",
                 "Program studi di UNJAYA apa saja?",
                 "Jurusan apa saja yang ada di sini?",
-                "Ada berapa program studi di fakultas ini?",
+                "Berapa banyak program studi yang tersedia di fakultas ini?",
                 "Fakultas ini punya berapa prodi?",
                 "Sebutkan program studi di fakultas ini",
                 "Prodi yang tersedia di fakultas ini apa saja?",
                 "Apa saja jurusan di fakultas ini?",
-                "Program studi apa yang ada di fakultas ini?",
+                "Fakultas ini memiliki program studi apa?",
                 "Jurusan yang ditawarkan di fakultas ini apa saja?",
                 "Fakultas ini menawarkan jurusan apa saja?",
                 "Berapa program studi yang ada di sini?",
                 "Fakultas ini memiliki program studi apa saja?",
-                "Apa saja jurusan di UNJAYA?",
+                "UNJAYA menawarkan jurusan apa saja?",
                 "Jurusan apa saja yang ada di UNJAYA?",
                 "Program studi apa yang ditawarkan di UNJAYA?"
             ],
@@ -435,8 +509,8 @@
         {
             "tag": "beasiswa_umum",
             "patterns": [
-                "Bagaimana cara mendapatkan beasiswa di Unjaya?",
-                "Apa saja syarat umum untuk mendapatkan beasiswa?",
+                "Cara mendapatkan beasiswa di Unjaya bagaimana?",
+                "Syarat-syarat umum untuk mendapatkan beasiswa apa saja?",
                 "Informasi tentang beasiswa di Unjaya",
                 "Jenis-jenis beasiswa yang tersedia di Unjaya",
                 "Ada beasiswa apa saja di Unjaya?",
@@ -455,8 +529,8 @@
             "tag": "beasiswa_detail",
             "patterns": [
                 "bisa jelaskan beasiswa tersebut?",
-                "jelaskan lebih lanjut tentang beasiswa di Unjaya",
-                "detail tentang beasiswa di Unjaya",
+                "Bisa jelaskan lebih rinci tentang beasiswa di Unjaya?",
+                "Informasi detail mengenai beasiswa di Unjaya?",
                 "informasi mengenai beasiswa di Unjaya",
                 "detail beasiswa Unjaya",
                 "penjelasan tentang beasiswa Unjaya"
@@ -513,11 +587,11 @@
         {
             "tag": "revisi_tugas_akhir",
             "patterns": [
-                "Berapa lama waktu yang diberikan untuk menyelesaikan revisi tugas akhir?",
-                "Kapan batas waktu revisi tugas akhir?",
+                "Berapa durasi waktu yang diberikan untuk menyelesaikan revisi tugas akhir?",
+                "Kapan tenggat waktu revisi tugas akhir?",
                 "Revisi tugas akhir harus selesai dalam waktu berapa lama?",
                 "Waktu penyelesaian revisi tugas akhir",
-                "Batas waktu revisi tugas akhir",
+                "Berapa waktu yang diberikan untuk revisi tugas akhir?",
                 "Deadline revisi tugas akhir"
             ],
             "responses": [
@@ -555,12 +629,12 @@
         {
             "tag": "pendaftaran_yudisium",
             "patterns": [
-                "Bagaimana cara mendaftar yudisium?",
+                "Apa langkah-langkah untuk mendaftar yudisium?",
                 "Link untuk pendaftaran yudisium?",
                 "Di mana saya bisa mendaftar yudisium?",
                 "Cara mendaftar yudisium",
-                "Tempat pendaftaran yudisium",
-                "Bagaimana mendaftar yudisium?"
+                "Dimana lokasi untuk mendaftar yudisium?",
+                "Tempat apa yang digunakan untuk daftar yudisium?"
             ],
             "responses": [
                 "Anda dapat mendaftar yudisium melalui laman https://bit.ly/yudisium-ftti."
@@ -635,10 +709,10 @@
         {
             "tag": "syarat_pendaftaran_yudisium",
             "patterns": [
-                "Apa saja syarat pendaftaran yudisium?",
+                "Syarat apa saja yang dibutuhkan untuk pendaftaran yudisium?",
                 "Dokumen apa yang diperlukan untuk pendaftaran yudisium?",
                 "Syarat untuk mendaftar yudisium apa saja?",
-                "Dokumen yang dibutuhkan untuk yudisium",
+                "Dokumen apa saja yang dibutuhkan untuk pendaftaran yudisium?",
                 "Persyaratan pendaftaran yudisium",
                 "Apa saja yang harus dipersiapkan untuk mendaftar yudisium?",
                 "Apa saja dokumen yang dibutuhkan untuk yudisium?",
@@ -869,8 +943,8 @@
                 "Bagaimana cara mengecek jadwal kuliah di Unjaya?",
                 "Saya ingin melihat jadwal kuliah, di mana bisa ditemukan?",
                 "Tolong beritahu cara akses jadwal kuliah.",
-                "Jadwal Kuliah FTTI yang baru",
-                "Berikan Jadwal Kuliah FTTI",
+                "Di mana bisa ditemukan jadwal kuliah FTTI yang baru?",
+                "Bisa berikan jadwal kuliah FTTI?",
                 "Apa saja jadwal kuliah hari ini?",
                 "Bagaimana jadwal kuliah semester ini?",
                 "Dimana lihat jadwal kuliah semester ini"
@@ -891,6 +965,60 @@
             ],
             "responses": [
                 "Fakultas Teknik & Teknologi Informasi menempati gedung kampus 1 Universitas Jenderal A. Yani Yogyakarta. Guna mendukung aktivitas akademik, telah tersedia fasilitas berikut ini di FTTI:\n\n- Ruang Kelas\n- Laboratorium Komputer\n- Wi-fi Coverage\n- Perpustakaan\n\nLayanan untuk keperluan akademik UNJANI Yogyakarta dilayani di 3 (tiga) loket, yakni:\n\n1. **Loket Operasional Pendidikan (Opsdik)**, di Gedung Utama, Lantai 2\n   - Loket ini melayani informasi seputar Perkuliahan, Magang Kerja, Tugas Akhir, Sertifikasi, Ujian, Dosen.\n\n2. **Loket Akademik**, di Gedung Akademik, Lantai 1\n   - Loket ini melayani keperluan seputar KRS, KHS, Transkrip Nilai, Legalisir Ijazah, Akreditasi, Portal Akademik, Yudisium, dan Wisuda.\n\n3. **Loket Keuangan**, di Gedung Akademik, Lantai 1\n   - Loket ini melayani pembayaran SPP, biaya wisuda, dan biaya pendukung akademik lainnya.\n\nLoket dibuka pada jam kerja setiap harinya. Mahasiswa disilakan menuju loket yang sesuai dengan keperluan akademiknya."
+            ]
+        },
+        {
+            "tag": "melihat_ipk",
+            "patterns": [
+                "Bagaimana cara melihat IPK?",
+                "Cara cek IPK mahasiswa?",
+                "Bagaimana cara mahasiswa melihat IPK?",
+                "Di mana saya bisa melihat IPK saya?",
+                "Bagaimana cara mengetahui IPK saya?",
+                "Apa langkah-langkah untuk melihat IPK?",
+                "Dimana saya bisa cek IPK?",
+                "Bagaimana cara login untuk melihat IPK?",
+                "Dimana bagian untuk melihat IPK di website?",
+                "Bagaimana proses melihat IPK di portal mahasiswa?"
+            ],
+            "responses": [
+                "Untuk melihat IPK, kunjungi web https://pordik.unjaya.ac.id/ kemudian lakukan login khusus mahasiswa. Setelah berhasil login, buka bagian Laporan Hasil Studi. Di sana Anda bisa melihat nilai IPK Anda masing-masing.",
+                "Anda bisa melihat IPK Anda dengan cara mengunjungi web https://pordik.unjaya.ac.id/, lalu login menggunakan akun mahasiswa. Setelah login, buka bagian Laporan Hasil Studi untuk melihat IPK.",
+                "Untuk mengetahui IPK, akses web https://pordik.unjaya.ac.id/, login sebagai mahasiswa, dan buka Laporan Hasil Studi. Di bagian tersebut, Anda bisa melihat nilai IPK Anda.",
+                "Cara melihat IPK: kunjungi https://pordik.unjaya.ac.id/, login dengan akun mahasiswa, dan buka bagian Laporan Hasil Studi. Di sana Anda akan menemukan nilai IPK Anda.",
+                "Untuk cek IPK, silakan akses https://pordik.unjaya.ac.id/ dan login dengan akun mahasiswa. Kemudian, buka bagian Laporan Hasil Studi untuk melihat nilai IPK Anda.",
+                "Anda dapat melihat IPK dengan mengunjungi https://pordik.unjaya.ac.id/, login menggunakan akun mahasiswa, dan membuka bagian Laporan Hasil Studi.",
+                "Untuk melihat IPK mahasiswa, akses https://pordik.unjaya.ac.id/, lakukan login khusus mahasiswa, dan buka Laporan Hasil Studi. Di sana, IPK Anda akan terlihat.",
+                "Login ke https://pordik.unjaya.ac.id/ dengan akun mahasiswa, lalu buka bagian Laporan Hasil Studi untuk melihat IPK Anda.",
+                "Akses https://pordik.unjaya.ac.id/, login sebagai mahasiswa, dan buka Laporan Hasil Studi. Di bagian itu, Anda dapat melihat IPK Anda.",
+                "Untuk melihat IPK, silakan login ke https://pordik.unjaya.ac.id/ menggunakan akun mahasiswa dan buka Laporan Hasil Studi. Nilai IPK Anda akan ditampilkan di sana."
+            ]
+        },
+        {
+            "tag": "wifi_kampus",
+            "patterns": [
+                "Apa SSID WiFi kampus?",
+                "Bagaimana cara menghubungkan ke WiFi kampus?",
+                "Apa password WiFi kampus?",
+                "Bagaimana cara akses WiFi di kampus?",
+                "SSID WiFi kampus apa?",
+                "Apa nama jaringan WiFi di kampus?",
+                "Password WiFi kampus apa?",
+                "Bagaimana cara mendapatkan akses WiFi di kampus?",
+                "WiFi kampus pakai password apa?",
+                "Bagaimana cara terhubung ke WiFi kampus?"
+            ],
+            "responses": [
+                "SSID WiFi kampus adalah UNJAYA dan passwordnya adalah mahasiswaAP.",
+                "Untuk menghubungkan ke WiFi kampus, gunakan SSID UNJAYA dan masukkan password mahasiswaAP.",
+                "Nama jaringan WiFi di kampus adalah UNJAYA dengan password mahasiswaAP.",
+                "Anda bisa mengakses WiFi di kampus dengan SSID UNJAYA dan password mahasiswaAP.",
+                "SSID WiFi kampus: UNJAYA, password: mahasiswaAP.",
+                "Untuk terhubung ke WiFi kampus, pilih jaringan dengan SSID UNJAYA dan gunakan password mahasiswaAP.",
+                "Jaringan WiFi kampus memiliki SSID UNJAYA dan password mahasiswaAP.",
+                "Untuk mendapatkan akses WiFi di kampus, gunakan SSID UNJAYA dan password mahasiswaAP.",
+                "SSID WiFi di kampus adalah UNJAYA dan passwordnya mahasiswaAP.",
+                "Terhubung ke WiFi kampus dengan SSID UNJAYA dan password mahasiswaAP."
             ]
         },
         {
@@ -1091,6 +1219,7 @@
                 "Bagaimana alur ikut msib?",
                 "gimana alur pendaftaran msib?",
                 "bagaimana cara mengikuti msib",
+                "gimana cara mbkm",
                 "bagaimana panduan mengikuti msib di unjaya?",
                 "bagaimana panduan mengikuti msib di ftti?",
                 "bagaimana tahap skema magang msib?",
@@ -1099,7 +1228,7 @@
                 "Tahapan MSIB MBKM seperti apa?"
             ],
             "responses": [
-                "Baik, Kamu dapat mengikuti ini:\nTahapan pra KRS skema magang Kemdikbud Ristek:\n1. Mahasiswa mencari pengumuman tentang peluang program MBKM melalui https://kampusmerdeka.kemdikbud.go.id/\n2. Mahasiswa menghubungi DPA dan memaparkan proposal rencana studi mengikuti program kepada DPA.\n3. DPA memberikan surat rekomendasi kepada Ketua Prodi.\n4. Program studi bersama dengan GMB menentukan rencana rekognisi yang kemudian disetujui oleh Wadek 1.\n5. Surat Rancangan Rekognisi disimpan ke DPA dan diinformasikan kepada mahasiswa.\n6. Mahasiswa mengunduh template dokumen persyaratan di https://bit.ly/Dokumen-MBKM.\n7. Mahasiswa melengkapi dokumen persyaratan dan mengunggah di https://bit.ly/MBKM_Unjaya.\nBiro Pengembangan Pembelajaran (BPP) memproses surat rekomendasi.\n9) Wakil Rektor 1 menandatangani surat rekomendasi.\n10) Mahasiswa mendapatkan surat rekomendasi.\n11) Mahasiswa mengikuti rangkaian seleksi dari penyelenggara.\n12) Pengumuman hasil seleksi.\n13) Mahasiswa menginformasikan hasil pengumuman ke DPA"
+                "Baik, Kamu dapat mengikuti ini:\nTahapan pra KRS skema magang Kemdikbud Ristek:1. Mahasiswa mencari pengumuman tentang peluang program MBKM melalui https://kampusmerdeka.kemdikbud.go.id/\n2. Mahasiswa menghubungi DPA dan memaparkan proposal rencana studi mengikuti program kepada DPA.\n3. DPA memberikan surat rekomendasi kepada Ketua Prodi.\n4. Program studi bersama dengan GMB menentukan rencana rekognisi yang kemudian disetujui oleh Wadek 1.\n5. Surat Rancangan Rekognisi disimpan ke DPA dan diinformasikan kepada mahasiswa.\n6. Mahasiswa mengunduh template dokumen persyaratan di https://bit.ly/Dokumen-MBKM.\n7. Mahasiswa melengkapi dokumen persyaratan dan mengunggah di https://bit.ly/MBKM_Unjaya.\n 8. Biro Pengembangan Pembelajaran (BPP) memproses surat rekomendasi.\n9. Wakil Rektor 1 menandatangani surat rekomendasi.\n10. Mahasiswa mendapatkan surat rekomendasi.\n11. Mahasiswa mengikuti rangkaian seleksi dari penyelenggara.\n12. Pengumuman hasil seleksi.\n13. Mahasiswa menginformasikan hasil pengumuman ke DPA"
             ]
         },
         {
